@@ -933,15 +933,16 @@ footer{
 }
 .catalog-card__img{
     height: 220px;
-    width: auto;
-    background-color: rgb(224, 224, 224);
+    width: 260px;
+    background: url(./img.jpeg);
+    background-size: cover;
     margin-bottom: 10px;
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
+    background-repeat: no-repeat;
 }
 .catalog-card{
-    max-width: 300px;
-    min-width: 230px;
+    width: auto;
     display: inline-block;
     border: 1px solid #f1f1f1;
     border-radius: 10px;
@@ -967,7 +968,7 @@ footer{
     color: gray;
 }
 .catalog-card__content{
-    margin: 0 5px;
+    margin: 0 10px;
     margin-bottom: 30px;
 }
 .catalog__wrapper-favorite{
@@ -981,7 +982,7 @@ footer{
 }
 .hearts{
     opacity: .6;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 @media screen and (min-width: 1024px){
     .wrapper-hamburger{
