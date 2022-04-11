@@ -933,9 +933,8 @@ footer{
 }
 .catalog-card__img{
     height: 220px;
-    width: 260px;
     background: url(./img2.png);
-    background-size: cover;
+    background-size: contain;
     margin-bottom: 10px;
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
