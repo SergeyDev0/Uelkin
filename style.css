@@ -932,8 +932,9 @@ footer{
     gap: 30px;
 }
 .catalog-card__img{
-    height: 220px;
-    min-width: 200px;
+    min-height: 220px;
+    max-height: 240px;
+    min-width: 180px;
     background: url(./img2.png);
     background-size: contain;
     margin-bottom: 10px;
@@ -942,6 +943,7 @@ footer{
     background-repeat: no-repeat;
 }
 .catalog-card{
+    height: auto;
     display: inline-block;
     border: 1px solid #f1f1f1;
     border-radius: 10px;
