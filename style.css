@@ -935,7 +935,7 @@ footer{
     min-height: 220px;
     max-height: 240px;
     min-width: 180px;
-    background: url(./img2.png);
+    max-width: 320px;
     background-size: contain;
     margin-bottom: 10px;
     border-top-left-radius: 9px;
@@ -952,6 +952,9 @@ footer{
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     margin-bottom: 10px;
+}
+.catalog-card:last-child{
+    margin-right: 20px;
 }
 .catalog-header{
     display: flex;
