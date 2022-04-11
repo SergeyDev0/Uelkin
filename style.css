@@ -933,6 +933,7 @@ footer{
 }
 .catalog-card__img{
     height: 220px;
+    min-width: 200px;
     background: url(./img2.png);
     background-size: contain;
     margin-bottom: 10px;
@@ -941,7 +942,6 @@ footer{
     background-repeat: no-repeat;
 }
 .catalog-card{
-    width: auto;
     display: inline-block;
     border: 1px solid #f1f1f1;
     border-radius: 10px;
