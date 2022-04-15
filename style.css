@@ -160,7 +160,6 @@ header{
     top: 0;
     bottom: 0;
     margin: auto;
-    cursor: text;
 }
 .header__search-input::placeholder{
     color: rgb(109, 109, 109);
@@ -587,8 +586,15 @@ particle {
     -o-border-radius: 5px;
 }
 .dropdown-item{
+    position: relative;
     font-size: 14px;
     padding: 10px 16px;
+}
+.header-arrow{
+    width: 14px;
+    position: absolute;
+    top: 8px;
+    right: 10px;
 }
 .dropdown-content a {
     color: black;
