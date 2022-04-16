@@ -590,6 +590,12 @@ particle {
     font-size: 14px;
     padding: 10px 16px;
 }
+.dropdown-title{
+    font-size: 13px;
+    opacity: .6;
+    margin: 8px 16px;
+    margin-bottom: 2px;
+}
 .header-arrow{
     width: 14px;
     position: absolute;
