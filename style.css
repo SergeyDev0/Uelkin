@@ -593,8 +593,7 @@ particle {
 .dropdown-title{
     font-size: 13px;
     opacity: .6;
-    margin: 8px 16px;
-    margin-bottom: 2px;
+    margin: 10px 16px;
 }
 .header-arrow{
     width: 14px;
