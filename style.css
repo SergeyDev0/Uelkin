@@ -646,8 +646,8 @@ particle {
     align-items: center;
     width: 100%;
     font-weight: 400;
-    margin-top: 20px;
-    padding: 10px;
+    margin-top: 10px;
+    padding: 8px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -692,7 +692,6 @@ particle {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    background-color: #000;
     margin-right: 10px;
     background-size: cover;
 }
