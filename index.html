@@ -542,7 +542,7 @@
         img.forEach(img => {
             img.onload = function (event){
                 let ratio = img.naturalWidth / img.naturalHeight;
-                let m = ratio > 0.8 && ratio < 1.2 ? img.classList.add('square')
+                ratio > 0.8 && ratio < 1.2 ? img.classList.add('square')
                 : ratio  < 0.8 ? img.classList.add('vertical')
                 : ratio > 1.2 && img.classList.add('horizontal');
             }
