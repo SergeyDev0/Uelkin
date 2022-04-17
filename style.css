@@ -944,8 +944,6 @@ footer{
 .catalog-card__img{
     background-size: contain;
     margin-bottom: 10px;
-    border-top-left-radius: 9px;
-    border-top-right-radius: 9px;
     background-repeat: no-repeat;
 }
 .catalog-card{
@@ -966,6 +964,15 @@ footer{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+}
+.catalog-card__wrapper{
+
+}
+.catalog-card__wrapper-img{
+    margin-top: 5px;
+    height: 310px;
+    display: flex;
+    align-items: center;
 }
 .catalog-content__main, .catalog-content__description{
     display: flex;
@@ -1059,6 +1066,8 @@ footer{
 .vertical{
     width: 225px;
     height: 310px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
 }
 .horizontal{
     width: 320px;
