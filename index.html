@@ -456,7 +456,7 @@
                         <div class="catalog__wrapper-favorite">
                             <div class="popular-number no-before hearts">
                                 <i data-type="shadow" onclick="heartIcon1()" class="icons cursor fa-regular fa-heart heart1"></i>
-                                <p class="quality-likes1"></p>
+                                <p class="quality-likes1 qual-heart"></p>
                             </div>
                         </div>
                     </div>
@@ -476,7 +476,7 @@
                         <div class="catalog__wrapper-favorite">
                             <div class="popular-number no-before hearts">
                                 <i data-type="shadow" onclick="heartIcon2()" class="icons cursor fa-regular fa-heart heart2"></i>
-                                <p class="quality-likes2"></p>
+                                <p class="quality-likes2 qual-heart"></p>
                             </div>
                         </div>
                     </div>
@@ -496,13 +496,13 @@
                         <div class="catalog__wrapper-favorite">
                             <div class="popular-number no-before hearts">
                                 <i data-type="shadow" onclick="heartIcon3()" class="icons cursor fa-regular fa-heart heart3"></i>
-                                <p class="quality-likes3"></p>
+                                <p class="quality-likes3 qual-heart"></p>
                             </div>
                         </div>
                     </div>
 
                     <div class="catalog-card">
-                        <img class="catalog-card__img" src="https://via.placeholder.com/180x360" alt="catalog-img">
+                        <img class="catalog-card__img" src="https://via.placeholder.com/180x180" alt="catalog-img">
                         <div class="catalog-card__content">
                             <div class="catalog-content__description">
                                 <p class="catalog-content__group">Monster Memes</p>
@@ -516,7 +516,7 @@
                         <div class="catalog__wrapper-favorite">
                             <div class="popular-number no-before hearts">
                                 <i data-type="shadow" onclick="heartIcon4()" class="icons cursor fa-regular fa-heart heart4"></i>
-                                <p class="quality-likes4"></p>
+                                <p class="quality-likes4 qual-heart"></p>
                             </div>
                         </div>
                     </div>
@@ -537,7 +537,18 @@
         </footer>
     </div>
 
-
+    <script>
+        var img = document.querySelectorAll('.catalog-card__img');
+        img.forEach(img => {
+            img.onload = function (event){
+                let ratio = img.naturalWidth / img.naturalHeight;
+                let m = ratio > 0.8 && ratio < 1.2 ? img.classList.add('square')
+                : ratio  < 0.8 ? img.classList.add('vertical')
+                : ratio > 1.2 && img.classList.add('horizontal');
+            }
+            img.src = img.src;
+        });
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
         let inputHeader = document.querySelector('.header__search-input')
