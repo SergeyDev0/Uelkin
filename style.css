@@ -338,7 +338,7 @@ header{
 .no-before::before{
     display: none;
 }
-.catalog__wraper-favorite .popular-number{
+.catalog__wrapper-favorite .popular-number{
     margin-right: 0;
 }
 .content__button-install{
@@ -950,7 +950,7 @@ footer{
 .catalog-card{
     height: auto;
     display: inline-block;
-    border: 1px solid #f1f1f1;
+    border: 1px solid rgb(229, 232, 235);
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -995,8 +995,9 @@ footer{
     align-items: center;
     height: 13.33px;
     font-size: 14px;
-    padding: 13px 0px;
-    border-top: 1px solid #f1f1f1;
+    padding: 20px 10px;
+    background: linear-gradient(rgba(229, 232, 235, 0.392) 0%, rgb(255, 255, 255) 20%);
+    padding-top: 22px;
 }
 .square{
     width: auto;
