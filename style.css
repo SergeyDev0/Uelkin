@@ -998,8 +998,8 @@ footer{
     padding: 20px 10px;
     background: linear-gradient(rgba(229, 232, 235, 0.392) 0%, rgb(255, 255, 255) 20%);
     padding-top: 22px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 14px;
 }
 .square{
     width: auto;
