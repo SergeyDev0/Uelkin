@@ -914,6 +914,7 @@ footer{
     width: 100%;
     overflow-x: scroll;
     overflow-y: hidden;
+    padding: 10px 5px;
 }
 .catalog-body::-webkit-scrollbar {   
     height: 6px;
@@ -957,6 +958,11 @@ footer{
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     margin-bottom: 10px;
+}
+.catalog-card:hover{
+    box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
+    transition: all 0.1s ease 0s;
+    margin-top: -3px;
 }
 .catalog-card:last-child{
     margin-right: 20px;
@@ -1014,7 +1020,7 @@ footer{
     height: 100%;
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 .horizontal{
     width: 100%;
@@ -1023,6 +1029,9 @@ footer{
 .hearts{
     opacity: .6;
     margin-right: 10px;
+}
+.catalog__price, .catalog__group-title{
+    color: #1f1f1f;
 }
 .search-section{
     width: 712px;
