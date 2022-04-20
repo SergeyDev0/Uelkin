@@ -1027,8 +1027,22 @@ footer{
     height: 220px;
 }
 .hearts{
-    opacity: .6;
     margin-right: 10px;
+    font-size: 16px;
+    color: rgb(138, 147, 155);
+}
+.heart-catalog{
+    color: rgb(138, 147, 155);
+}
+.heart-catalog:hover{
+    color: rgb(235, 87, 87)
+}
+.qual-heart-catalog{
+    font-size: 12px;
+    height: 9px;
+}
+.red{
+    color: rgb(235, 87, 87);
 }
 .catalog__price, .catalog__group-title{
     color: #1f1f1f;

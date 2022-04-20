@@ -458,8 +458,8 @@
                             </div>
                             <div class="catalog__wrapper-favorite">
                                 <div class="popular-number no-before hearts">
-                                    <i data-type="shadow" onclick="heartIcon1()" class="icons cursor fa-regular fa-heart heart1"></i>
-                                    <p class="quality-likes1 qual-heart"></p>
+                                    <i data-type="shadow" onclick="heartIcon1()" class="icons heart-catalog cursor fa-regular fa-heart heart1"></i>
+                                    <p class="quality-likes1 qual-heart qual-heart-catalog"></p>
                                 </div>
                             </div>
                         </div>
@@ -482,8 +482,8 @@
                             </div>
                             <div class="catalog__wrapper-favorite">
                                 <div class="popular-number no-before hearts">
-                                    <i data-type="shadow" onclick="heartIcon2()" class="icons cursor fa-regular fa-heart heart2"></i>
-                                    <p class="quality-likes2 qual-heart"></p>
+                                    <i data-type="shadow" onclick="heartIcon2()" class="icons cursor fa-regular heart-catalog fa-heart heart2"></i>
+                                    <p class="quality-likes2 qual-heart qual-heart-catalog"></p>
                                 </div>
                             </div>
                         </div>
@@ -506,8 +506,8 @@
                             </div>
                             <div class="catalog__wrapper-favorite">
                                 <div class="popular-number no-before hearts">
-                                    <i data-type="shadow" onclick="heartIcon3()" class="icons cursor fa-regular fa-heart heart3"></i>
-                                    <p class="quality-likes3 qual-heart"></p>
+                                    <i data-type="shadow" onclick="heartIcon3()" class="icons cursor fa-regular heart-catalog fa-heart heart3"></i>
+                                    <p class="quality-likes3 qual-heart qual-heart-catalog"></p>
                                 </div>
                             </div>
                         </div>
@@ -530,8 +530,8 @@
                             </div>
                             <div class="catalog__wrapper-favorite">
                                 <div class="popular-number no-before hearts">
-                                    <i data-type="shadow" onclick="heartIcon4()" class="icons cursor fa-regular fa-heart heart4"></i>
-                                    <p class="quality-likes4 qual-heart"></p>
+                                    <i data-type="shadow" onclick="heartIcon4()" class="icons cursor fa-regular heart-catalog fa-heart heart4"></i>
+                                    <p class="quality-likes4 qual-heart qual-heart-catalog"></p>
                                 </div>
                             </div>
                         </div>
@@ -553,15 +553,6 @@
         </footer>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script>
-        function kek(){
-            return hhh = 2;
-        }
-        kek()
-        let b = 3;
-        console.log('Начальное значение: ', hhh);
-        console.log('Резулльтат с вычислением: ', hhh + b)
-    </script>
     <script>
         let img = document.querySelectorAll('.catalog-card__img');
         let cardCatalog = document.querySelectorAll('.catalog-card__wrapper');
@@ -837,7 +828,7 @@
             }  
         }
         function heartIcon1(){
-            $(heart1).toggleClass('fa-regular fa');
+            $(heart1).toggleClass('fa-regular fa red');
             n += 1;
             if (n % 2 !== 0) {
                 quality1 += 1;
@@ -848,7 +839,7 @@
             qualityLike1.innerHTML = quality1;
         }
         function heartIcon2(){
-            $(heart2).toggleClass('fa-regular fa');
+            $(heart2).toggleClass('fa-regular fa red');
             u += 1;
             if (u % 2 !== 0) {
                 quality2 += 1;
@@ -859,7 +850,7 @@
             qualityLike2.innerHTML = quality2;
         }
         function heartIcon3(){
-            $(heart3).toggleClass('fa-regular fa');
+            $(heart3).toggleClass('fa-regular fa red');
             s += 1;
             if (s % 2 !== 0) {
                 quality3 += 1;
@@ -870,7 +861,7 @@
             qualityLike3.innerHTML = quality3;
         }
         function heartIcon4(){
-            $(heart4).toggleClass('fa-regular fa');
+            $(heart4).toggleClass('fa-regular fa red');
             p += 1;
             if (p % 2 !== 0) {
                 quality4 += 1;
