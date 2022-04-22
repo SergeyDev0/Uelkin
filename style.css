@@ -991,6 +991,7 @@ footer{
     font-family: 'Lucida Console', monospace;
     font-size: 17px;
     font-weight: 400;
+    margin-bottom: 20px;
 }
 .catalog-content__description{
     margin-bottom: 8px;
