@@ -988,16 +988,16 @@ footer{
     align-items: center;
 }
 .catalog-content__main{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lucida Console', monospace;
     font-size: 17px;
-    font-weight: 600;
+    font-weight: 400;
 }
 .catalog-content__description{
     margin-bottom: 8px;
     font-size: 13px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lucida Console', monospace;
     color: rgb(112, 122, 131);
-    font-weight: 600;
+    font-weight: 400;
 }
 .catalog-card__content{
     margin: 0 10px;
