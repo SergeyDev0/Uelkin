@@ -5,6 +5,7 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('//db.onlinewebfonts.com/c/05e476e067ffef74ca5686f229c40a63?family=PingFang+SC');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @font-face {
     font-family: 'Arial';
     src: url('./ArialBold.ttf'),
@@ -1030,8 +1031,9 @@ footer{
 }
 .hearts{
     margin-right: 10px;
-    font-size: 16px;
+    font-size: 20px;
     color: rgb(138, 147, 155);
+    font-weight: 500;
 }
 .heart-catalog{
     color: rgb(138, 147, 155);
@@ -1040,20 +1042,10 @@ footer{
     color: rgb(235, 87, 87)
 }
 .qual-heart-catalog{
-    font-size: 12px;
-    height: 9px;
-    font-weight: 900;
-}
-.catalog__view-btn{
-    color: rgb(32, 129, 226);
-    font-size: 13px;
-    display: none;
-}
-.catalog-card:hover .catalog__view-btn{
-    display: block;
-}
-.catalog-card:hover .catalog__wrapper-favorite{
-    justify-content: space-between;
+    font-size: 15px;
+    line-height: 1.2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 .red{
     color: rgb(235, 87, 87);
