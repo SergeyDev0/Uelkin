@@ -988,7 +988,8 @@ footer{
     align-items: center;
 }
 .catalog-content__main{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lucida Console', sans-serif;
+    font-size: 17px;
     font-weight: 600;
 }
 .catalog-content__description{
