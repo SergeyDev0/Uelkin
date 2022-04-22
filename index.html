@@ -457,6 +457,7 @@
                                 </div>
                             </div>
                             <div class="catalog__wrapper-favorite">
+                                <button class="catalog__view-btn">View</button>
                                 <div class="popular-number no-before hearts">
                                     <i data-type="shadow" onclick="heartIcon1()" class="icons heart-catalog cursor fa-regular fa-heart heart1"></i>
                                     <p class="quality-likes1 qual-heart qual-heart-catalog"></p>
@@ -481,6 +482,7 @@
                                 </div>
                             </div>
                             <div class="catalog__wrapper-favorite">
+                                <button class="catalog__view-btn">View</button>
                                 <div class="popular-number no-before hearts">
                                     <i data-type="shadow" onclick="heartIcon2()" class="icons cursor fa-regular heart-catalog fa-heart heart2"></i>
                                     <p class="quality-likes2 qual-heart qual-heart-catalog"></p>
@@ -505,6 +507,7 @@
                                 </div>
                             </div>
                             <div class="catalog__wrapper-favorite">
+                                <button class="catalog__view-btn">View</button>
                                 <div class="popular-number no-before hearts">
                                     <i data-type="shadow" onclick="heartIcon3()" class="icons cursor fa-regular heart-catalog fa-heart heart3"></i>
                                     <p class="quality-likes3 qual-heart qual-heart-catalog"></p>
@@ -513,7 +516,7 @@
                         </div>
                     </a>
 
-                    <a href="#" class="catalog-card">
+                    <a href="https://www.google.com/" class="catalog-card">
                         <div class="catalog-card__wrapper">
                             <div class="catalog-card__wrapper-img">
                                 <img class="catalog-card__img" src="https://lh3.googleusercontent.com/xMaCCZVnntUkcjhzOIuxXa0veIaELwancbgZ51YjuXM6EoC2Rsasagrws5e1A0OlJ7ZqkZdYEvwik11v-qLkcuEmZg0APNMtfsyA=w268" alt="catalog-img">
@@ -529,6 +532,7 @@
                                 </div>
                             </div>
                             <div class="catalog__wrapper-favorite">
+                                <button class="catalog__view-btn">View</button>
                                 <div class="popular-number no-before hearts">
                                     <i data-type="shadow" onclick="heartIcon4()" class="icons cursor fa-regular heart-catalog fa-heart heart4"></i>
                                     <p class="quality-likes4 qual-heart qual-heart-catalog"></p>
@@ -553,6 +557,21 @@
         </footer>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        catalogDiv = document.querySelectorAll('.catalog-card');
+        catalogButton = document.querySelectorAll('.hearts');
+        catalogDiv.forEach(card => {
+            catalogButton.forEach(button => {
+                let hrefCard = card.href;
+                button.addEventListener('mouseenter', function(){
+                    card.removeAttribute('href');
+                })
+                button.addEventListener('mouseleave', function(){
+                    card.setAttribute('href', hrefCard);
+                })
+            })
+        })
+    </script>
     <script>
         let img = document.querySelectorAll('.catalog-card__img');
         let cardCatalog = document.querySelectorAll('.catalog-card__wrapper');

@@ -950,7 +950,6 @@ footer{
 }
 .catalog-card{
     height: auto;
-    display: inline-block;
     border: 1px solid rgb(229, 232, 235);
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -958,10 +957,10 @@ footer{
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     margin-bottom: 10px;
+    position: relative;
 }
 .catalog-card:hover{
     box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
-    transition: all 0.1s ease 0s;
     margin-top: -3px;
 }
 .catalog-card:last-child{
@@ -970,7 +969,7 @@ footer{
 .catalog-header{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 .catalog-card__wrapper-img{
     margin-top: 5px;
@@ -987,20 +986,23 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
+.catalog-content__main{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
 .catalog-content__description{
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-size: 12px;
     color: gray;
 }
 .catalog-card__content{
     margin: 0 10px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 .catalog__wrapper-favorite{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 13.33px;
     font-size: 14px;
     padding: 20px 10px;
     background: linear-gradient(rgba(229, 232, 235, 0.392) 0%, rgb(255, 255, 255) 20%);
@@ -1040,6 +1042,18 @@ footer{
 .qual-heart-catalog{
     font-size: 12px;
     height: 9px;
+    font-weight: 900;
+}
+.catalog__view-btn{
+    color: rgb(32, 129, 226);
+    font-size: 13px;
+    display: none;
+}
+.catalog-card:hover .catalog__view-btn{
+    display: block;
+}
+.catalog-card:hover .catalog__wrapper-favorite{
+    justify-content: space-between;
 }
 .red{
     color: rgb(235, 87, 87);
