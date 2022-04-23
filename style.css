@@ -1186,6 +1186,9 @@ footer{
     .header__search-input{
         width: 210px;
     }
+    .catalog{
+        width: 85%;
+    }
 }
 @media screen and (max-width: 1024px){
     .wrapper-hamburger{
@@ -1272,6 +1275,9 @@ footer{
 	    text-overflow: ellipsis;
         display: inline-block;
         white-space: nowrap;
+    }
+    .catalog-scroll{
+        gap: 15px;
     }
 }
 @media screen and (max-width: 960px){
