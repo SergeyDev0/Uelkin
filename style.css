@@ -1036,7 +1036,7 @@ footer{
 }
 .hearts{
     margin-right: 10px;
-    font-size: 17px;
+    font-size: 16px;
     color: rgb(138, 147, 155);
     font-weight: 500;
 }
@@ -1048,7 +1048,7 @@ footer{
 }
 .qual-heart-catalog{
     font-size: 15px;
-    line-height: 1.2;
+    line-height: 1.15;
     font-family: 'Lucida Console', sans-serif;
     font-weight: 500;
 }
