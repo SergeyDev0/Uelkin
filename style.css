@@ -989,8 +989,9 @@ footer{
 }
 .catalog-content__main{
     font-family: 'Lucida Console', monospace;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 400;
+    letter-spacing: .1;
     margin-bottom: 20px;
 }
 .catalog-content__description{
@@ -1048,7 +1049,7 @@ footer{
 .qual-heart-catalog{
     font-size: 15px;
     line-height: 0.96;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lucida Console', sans-serif;
     font-weight: 500;
 }
 .red{
