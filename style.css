@@ -1383,23 +1383,57 @@ footer{
         height: 250px;
     }
     .t396__artboard{
-        height: 250px;
+        height: 250px !important;
     }
     .section__content{
         width: 90%;
+    }
+    .content-title{
+        font-size: 17px;
     }
     .glide-description{
         margin-bottom: 20px;
         margin-top: 10px;
     }
-    .content-title{
+    .section-title{
         font-size: 17px;
+        text-align: left;
+        margin-left: 5%;
+        margin-bottom: 5px;
     }
     .content__breadcrumb-item{
-        font-size: 10px;
+        display: none;
     }
     .content__header-img{
         width: 75px;
         height: 75px;
+    }
+    .intelligence-title{
+        font-size: 14px;
+        margin: 0;
+    }
+    .emoji-container, .emoji-container2, .emoji-container3, .emoji-container4, .emoji-container5, .emoji-container6 {
+        left: 20%;
+    }
+    .emoji-item{
+        height: 22px;
+    }
+    .icon-buy{
+        font-size: 13px;
+    }
+    .content__button-install{
+        font-size: 13px;
+        padding: 7.5px 14px;
+    }
+}
+@media screen and (max-width: 350px){
+    .intelligence-wrapper{
+        line-height: 41px;
+    }
+    .t396__artboard, .slider-img{
+        height: 220px !important;
+    }
+    .content-body{
+        margin-top: 5px;
     }
 }
