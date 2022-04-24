@@ -591,6 +591,7 @@ particle {
 }
 .dropdown-content1{
     flex-direction: column;
+    width: 240px;
 }
 .dropdown-item, .dropdown-item1{
     position: relative;
