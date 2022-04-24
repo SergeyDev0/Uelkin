@@ -1329,4 +1329,77 @@ footer{
     .header__search-input{
         width: 100%;
     }
+    .catalog-card__wrapper{
+        width: 200px;
+    }
+    .catalog-card__wrapper-img{
+        height: 196px;
+    }
+    .intelligence-left, .intelligence-right, .catalog, .comments{
+        width: 90%;
+    }
+    .catalog-title, .comments-title{
+        font-size: 17px;
+    }
+    .comments-all{
+        font-size: 13px;
+        margin-bottom: 1px;
+        margin-top: 3.5px;
+    }
+    .intelligence-arrow{
+        width: 14px;
+        height: 14px;
+    }
+    .comment-avatar{
+        width: 23px;
+        height: 23px;
+        margin-right: 5px;
+    }
+    .comment-name{
+        font-size: 13px;
+        overflow: hidden;
+	    text-overflow: ellipsis;
+        display: inline-block;
+        white-space: nowrap;
+        width: 60px;
+    }
+    .btn-emoji-icon{
+        width: 16px;
+        height: 16px;
+    }
+    .btn-emoji-conteiner{
+        font-size: 13px;
+    }
+    .comments-body__messasge{
+        width: 175px;
+    }
+    .intelligence-title{
+        text-align: left;
+        font-size: 17px;
+        margin-left: 5%;
+        margin-bottom: 5px;
+    }
+    .slider-img{
+        height: 250px;
+    }
+    .t396__artboard{
+        height: 250px;
+    }
+    .section__content{
+        width: 90%;
+    }
+    .glide-description{
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .content-title{
+        font-size: 17px;
+    }
+    .content__breadcrumb-item{
+        font-size: 10px;
+    }
+    .content__header-img{
+        width: 75px;
+        height: 75px;
+    }
 }
