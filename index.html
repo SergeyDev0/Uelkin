@@ -819,37 +819,38 @@
         let input = document.querySelector('.header__search-input');
         let input1 = document.querySelector('.header__search-input1');
         input.addEventListener('input', noneClear);
-        input1.addEventListener('input', noneClear)
+        input1.addEventListener('input', noneClear1);
         function check() {
         console.log("qq")
         }
 
         function clearr() {
         input.value = "";
-        clear.classList.remove('none')
-        }
-        function clearr1() {
-        input1.value = "";
-        clear1.classList.remove('none')
+        clear.classList.remove('none-clear')
         }
         let clear = document.querySelector('.clear');
         let clear1 = document.querySelector('.clear1');
 
+        function clearr1() {
+        input1.value = "";
+        clear1.classList.remove('none-clear')
+        }
+        
         function noneClear() {
         if (input.value.length == 0) { // Если нет текста
-            clear.classList.remove('none');
+            clear.classList.remove('none-clear');
         }
         else {
-            clear.classList.add('none');
+            clear.classList.add('none-clear');
         }
         }
 
         function noneClear1() {
         if (input1.value.length == 0) { // Если нет текста
-            clear1.classList.remove('none');
+            clear1.classList.remove('none-clear');
         }
         else {
-            clear1.classList.add('none');
+            clear1.classList.add('none-clear');
         }
         }
 

@@ -196,7 +196,10 @@ header{
     bottom: 0;
     margin: auto 0;
 }
-.none{
+.clear1{
+    right: 53px;
+}
+.none-clear{
     display: block;
 }
 .logo{
