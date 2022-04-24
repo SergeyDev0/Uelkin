@@ -1402,7 +1402,7 @@ footer{
         margin-bottom: 5px;
     }
     .content__breadcrumb-item{
-        display: none;
+        font-size: 10px;
     }
     .content__header-img{
         width: 75px;
@@ -1425,8 +1425,17 @@ footer{
         font-size: 13px;
         padding: 7.5px 14px;
     }
+    .content__wrapper-install{
+        position: absolute;
+        right: 0;
+        bottom: 4px;
+    }
+    .content-header{
+        position: relative;
+        margin-bottom: 7px;
+    }
 }
-@media screen and (max-width: 350px){
+@media screen and (max-width: 380px){
     .intelligence-wrapper{
         line-height: 41px;
     }
@@ -1435,5 +1444,111 @@ footer{
     }
     .content-body{
         margin-top: 5px;
+    }
+    .content__breadcrumb-item:first-child{
+        display: none;
+    }
+    .content__breadcrumb-item::after:first-child{
+        display: none;
+    }
+    .icon-buy{
+        font-size: 12.5px;
+    }
+    .content__button-install{
+        font-size: 12px;
+        padding: 6.5px 10px;
+    }
+    .comments-body__messasge{
+        width: 120px;
+    }
+    .btn-emoji-icon{
+        width: 15px;
+        height: 15px;
+    }
+    .btn-emoji-conteiner{
+        font-size: 12.5px;
+    }
+    .comments-all{
+        margin-bottom: 0px;
+        margin-top: 2px;
+    }
+    .intelligence-title{
+        font-size: 13px;
+    }
+    .catalog-title, .comments-title, .section-title{
+        font-size: 15px;
+    }
+    .intelligence-arrow{
+        margin-bottom: 2px;
+    }
+    .catalog-content__main{
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    .catalog-content__description{
+        font-size: 12px;
+    }
+    .qual-heart-catalog{
+        height: 12px;
+        font-size: 13px;
+    }
+    .catalog__wrapper-favorite .popular-number{
+        font-size: 14px;
+    }
+    .catalog__wrapper-favorite{
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 320px){
+    .content__breadcrumb-item{
+        font-size: 9px;
+    }
+    .comment-avatar{
+        width: 20px;
+        height: 20px;
+    }
+    .comment-name{
+        width: 54px;
+        font: 12px;
+    }
+    .comments-body__messasge{
+        width: 96px;
+    }
+    .btn-emoji-conteiner{
+        font-size: 12px;
+    }
+    .btn-emoji-icon{
+        width: 14px;
+        height: 14px;
+    }
+    .intelligence-arrow{
+        margin-bottom: 2px;
+        width: 12px;
+        height: 13px;
+    }
+    .comments-all{
+        margin-top: 1px;
+    }
+    .footer-text{
+        font-size: 9.5px;
+    }
+    .footer-text-bottom{
+        font-size: 10px;
+    }
+    .header-link{
+        font-size: 12px;
+    }
+    .header__connect-wallet-mobile{
+        font-size: 12px;
+    }
+    .header__search{
+        margin-top: 0;
+    }
+    .catalog-title{
+        overflow: hidden;
+	    text-overflow: ellipsis;
+        display: inline-block;
+        white-space: nowrap;
+        width: 180px;
     }
 }
