@@ -1394,7 +1394,8 @@ footer{
         margin-bottom: 5px;
     }
     .slider-img{
-        height: 250px;
+        height: auto !important;
+        width: 90vw;
     }
     .t396__artboard{
         height: 250px !important;
@@ -1455,9 +1456,6 @@ footer{
 @media screen and (max-width: 380px){
     .intelligence-wrapper{
         line-height: 41px;
-    }
-    .t396__artboard, .slider-img{
-        height: 220px !important;
     }
     .content-body{
         margin-top: 5px;
