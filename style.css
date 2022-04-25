@@ -1385,7 +1385,7 @@ footer{
         font-size: 13px;
     }
     .comments-body__messasge{
-        width: 175px;
+        width: 210px;
     }
     .intelligence-title{
         text-align: left;
@@ -1430,6 +1430,12 @@ footer{
     .emoji-container, .emoji-container2, .emoji-container3, .emoji-container4, .emoji-container5, .emoji-container6 {
         left: 20%;
     }
+    .btn-emoji-conteiner{
+        text-indent: -999em;
+    }
+    .btn-emoji-icon{
+        margin-right: 0;
+    }
     .emoji-item{
         height: 22px;
     }
@@ -1450,7 +1456,7 @@ footer{
         margin-bottom: 7px;
     }
     .emoji-container, .emoji-container2, .emoji-container3, .emoji-container4, .emoji-container5, .emoji-container6 {
-        left: -10%;
+        left: -240%;
     }
 }
 @media screen and (max-width: 380px){
@@ -1474,14 +1480,11 @@ footer{
         padding: 6.5px 10px;
     }
     .comments-body__messasge{
-        width: 120px;
+        width: 180px;
     }
     .btn-emoji-icon{
         width: 15px;
         height: 15px;
-    }
-    .btn-emoji-conteiner{
-        font-size: 12.5px;
     }
     .comments-all{
         margin-bottom: 0px;
@@ -1537,10 +1540,7 @@ footer{
         font: 12px;
     }
     .comments-body__messasge{
-        width: 96px;
-    }
-    .btn-emoji-conteiner{
-        font-size: 12px;
+        width: 145px;
     }
     .btn-emoji-icon{
         width: 14px;
@@ -1573,7 +1573,7 @@ footer{
         width: 180px;
     }
     .emoji-container, .emoji-container2, .emoji-container3, .emoji-container4, .emoji-container5, .emoji-container6 {
-        left: -20%;
+        left: -200%;
         padding: 6px;
     }
     .emoji-item{
