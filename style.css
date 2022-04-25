@@ -1386,6 +1386,7 @@ footer{
     }
     .comments-body__messasge{
         width: 210px;
+        font-size: 14px;
     }
     .intelligence-title{
         text-align: left;
