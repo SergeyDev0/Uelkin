@@ -1491,7 +1491,7 @@ footer{
         font-size: 13px;
     }
     .catalog-title, .comments-title, .section-title{
-        font-size: 15px;
+        font-size: 17px;
     }
     .intelligence-arrow{
         margin-bottom: 2px;
@@ -1515,6 +1515,13 @@ footer{
     }
     .footer-text-bottom, .footer-text{
         font-size: 11px;
+    }
+    .catalog-title{
+        overflow: hidden;
+	    text-overflow: ellipsis;
+        display: inline-block;
+        white-space: nowrap;
+        width: 220px;
     }
 }
 @media screen and (max-width: 320px){
@@ -1563,10 +1570,6 @@ footer{
         margin-top: 10px;
     }
     .catalog-title{
-        overflow: hidden;
-	    text-overflow: ellipsis;
-        display: inline-block;
-        white-space: nowrap;
         width: 180px;
     }
     .emoji-container, .emoji-container2, .emoji-container3, .emoji-container4, .emoji-container5, .emoji-container6 {
