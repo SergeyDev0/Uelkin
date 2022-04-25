@@ -1398,7 +1398,7 @@ footer{
         width: 90vw;
     }
     .t396__artboard{
-        height: 250px !important;
+        height: auto !important;
     }
     .section__content{
         width: 90%;
