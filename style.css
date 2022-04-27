@@ -625,7 +625,8 @@ particle {
 .dropdown-item, .dropdown-item1{
     position: relative;
     font-size: 14px;
-    padding: 9px 16px;
+    padding: 0px 16px;
+    height: 38px;
     display: flex;
     align-items: center;
 }
