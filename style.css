@@ -646,7 +646,7 @@ particle {
 .header-arrow{
     width: 14px;
     position: absolute;
-    top: 12px !important;
+    top: 9px !important;
     right: 10px;
 }
 .dropdown-content a {
@@ -1240,6 +1240,9 @@ footer{
     }
 }
 @media screen and (max-width: 1024px){
+    .header-arrow{
+        top: 9px !important;
+    }
     .clear1{
         left: 210px;
     }
