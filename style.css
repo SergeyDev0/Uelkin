@@ -611,7 +611,7 @@ particle {
     display: inline-block;
     white-space: nowrap;
     max-width: 240px;
-    margin-right: 5px;
+    margin-right: 12px;
 }
 .dropdown-title{
     font-size: 13px;
