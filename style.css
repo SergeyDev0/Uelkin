@@ -614,13 +614,14 @@ particle {
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
-    background-color: gray;
     margin-right: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .dropdown-item, .dropdown-item1{
     position: relative;
     font-size: 14px;
-    padding: 10px 16px;
+    padding: 9px 16px;
     display: flex;
     align-items: center;
 }
