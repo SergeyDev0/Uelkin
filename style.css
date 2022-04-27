@@ -605,6 +605,14 @@ particle {
     font-size: 14px;
     padding: 10px 16px;
 }
+.wrapper__dropdown-item{
+    overflow: hidden;
+	text-overflow: ellipsis;
+    display: inline-block;
+    white-space: nowrap;
+    max-width: 240px;
+    margin-right: 5px;
+}
 .dropdown-title{
     font-size: 13px;
     opacity: .6;
@@ -1130,13 +1138,6 @@ footer{
 }
 .search-title{
     margin-bottom: 32px;
-}
-.wrapper__dropdown-item{
-    overflow: hidden;
-	text-overflow: ellipsis;
-    display: inline-block;
-    white-space: nowrap;
-    max-width: 260px;
 }
 @media screen and (min-width: 1024px){
     .wrapper-hamburger{
