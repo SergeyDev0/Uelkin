@@ -471,8 +471,6 @@ header{
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-
-
 .glide-description{
     padding: 1.5% 0;
     border-top: 1px solid rgb(226, 226, 226);
@@ -580,17 +578,23 @@ particle {
     display: none ;
     position: absolute;
     background-color: #fff;
-    width: 100%;
-    overflow: auto;
+    max-width: 350px;
+    min-width: 240px;
+    width: fit-content;
     box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.2);
     z-index: 1;
     top: calc(29.5px + 5px);
-    /*Длина инпута на отступ*/
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
 }
 .dropdown-content1{
     flex-direction: column;
@@ -1127,6 +1131,13 @@ footer{
 .search-title{
     margin-bottom: 32px;
 }
+.wrapper__dropdown-item{
+    overflow: hidden;
+	text-overflow: ellipsis;
+    display: inline-block;
+    white-space: nowrap;
+    max-width: 260px;
+}
 @media screen and (min-width: 1024px){
     .wrapper-hamburger{
         display: none;
@@ -1237,6 +1248,7 @@ footer{
         font-size: 15px;
         color: #838383;
         font-family: "Lucida Console", monospace;
+
     }
     .header__search{
         margin-top: 5px;
