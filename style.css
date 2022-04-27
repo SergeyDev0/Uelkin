@@ -614,9 +614,13 @@ particle {
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
-    margin-right: 8px;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.dropdown__wrapper-img{
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
 }
 .dropdown-item, .dropdown-item1{
     position: relative;
