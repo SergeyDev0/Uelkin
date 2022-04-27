@@ -598,7 +598,12 @@ particle {
 }
 .dropdown-content1{
     flex-direction: column;
-    width: 240px;
+    left: 0%;
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
 }
 .dropdown-item, .dropdown-item1{
     position: relative;
@@ -621,7 +626,7 @@ particle {
 .header-arrow{
     width: 14px;
     position: absolute;
-    top: 8px;
+    top: 9px !important;
     right: 10px;
 }
 .dropdown-content a {
@@ -1217,6 +1222,9 @@ footer{
     }
 }
 @media screen and (max-width: 1024px){
+    .clear1{
+        left: 210px;
+    }
     .wrapper-hamburger{
         display: block;
     }
