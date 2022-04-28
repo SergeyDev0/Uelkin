@@ -1474,7 +1474,7 @@ footer{
         left: 20%;
     }
     .btn-emoji-conteiner{
-        text-indent: -999em;
+        display: none;
     }
     .btn-emoji-icon{
         margin-right: 0;
