@@ -132,7 +132,7 @@ header{
     color: black;
     padding: 8.5px 40px;
     padding-bottom: 7px;
-    padding-right: 20px;
+    padding-right: 36px;
     border-radius: 18px;
     -webkit-border-radius: 18px;
     -moz-border-radius: 18px;
@@ -146,12 +146,12 @@ header{
     border: 1px solid #007aff;
     padding: 7.5px 39px;
     padding-bottom: 6px;
-    padding-right: 19px;
+    padding-right: 35px;
 }
 .header__search-input:focus{
     border: 1px solid #007aff;
     padding: 7.5px 39px;
-    padding-right: 19px;
+    padding-right: 35px;
     padding-bottom: 6px;
 }
 .header__search::before{
@@ -637,7 +637,7 @@ particle {
     display: inline-block;
     white-space: nowrap;
     max-width: 240px;
-    margin-right: 12px;
+    margin-right: 5px;
 }
 .dropdown-title{
     font-size: 13px;
@@ -1162,6 +1162,15 @@ footer{
 }
 .search-title{
     margin-bottom: 32px;
+}
+.dropdown__wrapper-content{
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+}
+.dropdown__person{
+    width: 11px;
+    height: 11px;
 }
 @media screen and (min-width: 1024px){
     .wrapper-hamburger{
