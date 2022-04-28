@@ -607,8 +607,8 @@ particle {
     max-width: 300px;
 }
 .dropdown__header-img{
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -619,8 +619,8 @@ particle {
 }
 .dropdown__wrapper-img{
     margin-right: 8px;
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
 }
 .dropdown-item, .dropdown-item1{
     position: relative;
@@ -629,6 +629,7 @@ particle {
     height: 32.4px;
     display: flex;
     align-items: center;
+    font-family: 'Poppins', sans-serif;
 }
 .wrapper__dropdown-item{
     overflow: hidden;
