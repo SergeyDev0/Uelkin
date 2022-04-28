@@ -1475,7 +1475,7 @@ footer{
         left: 20%;
     }
     .btn-emoji-conteiner{
-        display: none;
+        font-size: 0px;
     }
     .btn-emoji-icon{
         margin-right: 0;
