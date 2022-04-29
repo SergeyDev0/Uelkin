@@ -5,7 +5,7 @@
 }
 :root {
     --balloon-border-radius: 4px;
-    --balloon-color: rgba(16, 16, 16, 0.95);
+    --balloon-color: rgba(66, 66, 66, 0.98);
     --balloon-text-color: #fff;
     --balloon-font-size: 12px;
     --balloon-move: 4px; }
@@ -21,7 +21,7 @@ button[aria-label][data-balloon-pos] {
     pointer-events: none;
     transition: 0;
     text-indent: 0;
-    font-family: 'Lucida Console', monospace;
+    font-family: 'Lucida Console', sans-serif;
     font-weight: normal;
     font-style: normal;
     text-shadow: none;
@@ -88,7 +88,7 @@ button[aria-label][data-balloon-pos] {
     -o-transform: translate(-50%, 3px);
 }
 [aria-label][data-balloon-pos][data-balloon-pos^="up"]:before, [aria-label][data-balloon-pos][data-balloon-pos^="up"]:after {
-    bottom: 80%;
+    bottom: 90%;
     transform-origin: top;
     transform: translate(0, var(--balloon-move));
     -webkit-transform: translate(0, var(--balloon-move));
