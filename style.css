@@ -639,6 +639,16 @@ particle {
     max-width: 240px;
     margin-right: 5px;
 }
+.dropdown__wrapper-content{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.dropdown__person{
+    width: 11px;
+    height: 11px;
+    margin-top: -1px;
+}
 .dropdown-title{
     font-size: 13px;
     opacity: .6;
@@ -1163,16 +1173,7 @@ footer{
 .search-title{
     margin-bottom: 32px;
 }
-.dropdown__wrapper-content{
-    display: flex;
-    align-items: center;
-    margin-right: 12px;
-}
-.dropdown__person{
-    width: 11px;
-    height: 11px;
-    margin-top: -1px;
-}
+
 @media screen and (min-width: 1024px){
     .wrapper-hamburger{
         display: none;
