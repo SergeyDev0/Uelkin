@@ -1171,7 +1171,7 @@ footer{
 .dropdown__person{
     width: 11px;
     height: 11px;
-    margin-top: 1px;
+    margin-top: 2px;
 }
 @media screen and (min-width: 1024px){
     .wrapper-hamburger{
