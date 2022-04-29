@@ -810,10 +810,10 @@ particle {
     align-items: center;
     font-size: 16px;
     font-weight: 400;
-    font-family: 'Roboto', 'Arial Rl', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: rgba(0,0,0,.6);
     background-color: rgb(255, 255, 255);
-    padding: 4px 6px;
+    padding: 3px 6px;
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -1171,6 +1171,7 @@ footer{
 .dropdown__person{
     width: 11px;
     height: 11px;
+    margin-top: 1px;
 }
 @media screen and (min-width: 1024px){
     .wrapper-hamburger{
