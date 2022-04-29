@@ -32,6 +32,7 @@ button[aria-label][data-balloon-pos] {
     border-radius: var(--balloon-border-radius);
     content: attr(aria-label);
     padding: .5em 1em;
+    padding-bottom: .3em;
     position: absolute;
     white-space: nowrap;
     z-index: 10;
@@ -77,16 +78,26 @@ button[aria-label][data-balloon-pos] {
     word-break: break-word; }
 [aria-label][data-balloon-pos][data-balloon-blunt]:before, [aria-label][data-balloon-pos][data-balloon-blunt]:after {
     transition: none; }
-[aria-label][data-balloon-pos][data-balloon-pos="up"]:hover:after, [aria-label][data-balloon-pos][data-balloon-pos="up"][data-balloon-visible]:after, [aria-label][data-balloon-pos][data-balloon-pos="down"]:hover:after, [aria-label][data-balloon-pos][data-balloon-pos="down"][data-balloon-visible]:after {
+[aria-label][data-balloon-pos][data-balloon-pos="up"]:hover:after, [aria-label][data-balloon-pos][data-balloon-pos="up"][data-balloon-visible]:after {
     transform: translate(-50%, 0); }
-[aria-label][data-balloon-pos][data-balloon-pos="up"]:hover:before, [aria-label][data-balloon-pos][data-balloon-pos="up"][data-balloon-visible]:before, [aria-label][data-balloon-pos][data-balloon-pos="down"]:hover:before, [aria-label][data-balloon-pos][data-balloon-pos="down"][data-balloon-visible]:before {
-    transform: translate(-50%, 0); }
+[aria-label][data-balloon-pos][data-balloon-pos="up"]:hover:before, [data-balloon-visible]:before {
+    transform: translate(-50%, 3px);
+    -webkit-transform: translate(-50%, 3px);
+    -moz-transform: translate(-50%, 3px);
+    -ms-transform: translate(-50%, 3px);
+    -o-transform: translate(-50%, 3px);
+}
 [aria-label][data-balloon-pos][data-balloon-pos^="up"]:before, [aria-label][data-balloon-pos][data-balloon-pos^="up"]:after {
-    bottom: 100%;
+    bottom: 80%;
     transform-origin: top;
-    transform: translate(0, var(--balloon-move)); }
+    transform: translate(0, var(--balloon-move));
+    -webkit-transform: translate(0, var(--balloon-move));
+    -moz-transform: translate(0, var(--balloon-move));
+    -ms-transform: translate(0, var(--balloon-move));
+    -o-transform: translate(0, var(--balloon-move));
+}
 [aria-label][data-balloon-pos][data-balloon-pos^="up"]:after {
-    margin-bottom: 10px; }
+    margin-bottom: 7px; }
 [aria-label][data-balloon-pos][data-balloon-pos="up"]:before, [aria-label][data-balloon-pos][data-balloon-pos="up"]:after {
     left: 50%;
     transform: translate(-50%, var(--balloon-move)); 
