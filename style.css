@@ -642,7 +642,7 @@ particle {
 .dropdown__wrapper-content{
     display: flex;
     align-items: center;
-    margin-right: 15px;
+    margin-right: 12px;
 }
 .dropdown__person{
     width: 11px;
