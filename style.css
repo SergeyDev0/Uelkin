@@ -9,7 +9,6 @@
     --balloon-text-color: #fff;
     --balloon-font-size: 12px;
     --balloon-move: 4px; }
-  
 button[aria-label][data-balloon-pos] {
     overflow: visible; }
   
@@ -1000,6 +999,9 @@ footer{
     flex-direction: column;
     width: 100%;
 }
+.wrapper__left-header-link{
+    display: flex;
+}
 .no-comments__img{
     font-size: 30px;
     margin-bottom: 5px;
@@ -1355,6 +1357,13 @@ footer{
     }
 }
 @media screen and (max-width: 1024px){
+    .header__left-links{
+        display: flex;
+        align-items: center;
+    }
+    .desktop{
+        display: none;
+    }
     .header-arrow{
         top: 9px !important;
     }
@@ -1370,8 +1379,8 @@ footer{
     .header-links-mobile{
         display: flex;
         font-family: 'Roboto', sans-serif;
-        margin-left: 15px;
-        flex-direction: column;
+        justify-content: space-between;
+        padding: 0 25px;
         margin-top: 10px;
     }
     .header-link{
@@ -1394,10 +1403,9 @@ footer{
         font-size: 15px;
         color: #838383;
         font-family: "Lucida Console", monospace;
-        margin-bottom: 10px;
     }
     .header__search{
-        margin-top: 5px;
+        margin-top: 0px;
         margin-bottom: 10px;
         margin-left: 15px;
     }
@@ -1480,7 +1488,7 @@ footer{
 @media screen and (max-width: 425px){
     .header__search{
         margin: 0 auto;
-        margin-top: 10px;
+        margin-top: 0px;
         margin-bottom: 10px;
         width: 93.5%;
     }
@@ -1606,8 +1614,21 @@ footer{
     .emoji-container, .emoji-container2, .emoji-container3, .emoji-container4, .emoji-container5, .emoji-container6 {
         left: -240%;
     }
+    .header-link{
+        font-size: 14px;
+    }
+    .header__connect-wallet-mobile{
+        font-size: 14px;
+    }
+    .header-links-mobile{
+        padding: 0 18px;
+    }
 }
 @media screen and (max-width: 380px){
+    .header__left-links{
+        flex-direction: column;
+        align-items: flex-start;
+    }
     .intelligence-wrapper{
         line-height: 41px;
     }
@@ -1674,14 +1695,11 @@ footer{
         white-space: nowrap;
         width: 220px;
     }
-    .header-link{
-        font-size: 14px;
-    }
-    .header__connect-wallet-mobile{
-        font-size: 14px;
-    }
 }
 @media screen and (max-width: 320px){
+    .header-links-mobile{
+        padding: 0 14px;
+    }
     .content__breadcrumb-item{
         font-size: 9px;
     }
@@ -1715,7 +1733,7 @@ footer{
         font-size: 10px;
     }
     .header__search{
-        margin-top: 10px;
+        margin-top: 0px;
     }
     .catalog-title{
         width: 180px;
