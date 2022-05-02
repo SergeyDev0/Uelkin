@@ -1384,7 +1384,7 @@ footer{
         margin-top: 10px;
     }
     .header-link{
-        margin-right: 15px;
+        margin-right: 25px;
         margin-bottom: 5px;
         width: fit-content;
         font-size: 15px;
@@ -1423,7 +1423,8 @@ footer{
         margin: 0 auto;
     }
     .section-title{
-        text-align: center;
+        margin: auto;
+        width: 85%;
         font-size: 22px;
     }
     .intelligence-description{
@@ -1616,6 +1617,7 @@ footer{
     }
     .header-link{
         font-size: 14px;
+        margin-right: 15px;
     }
     .header__connect-wallet-mobile{
         font-size: 14px;
