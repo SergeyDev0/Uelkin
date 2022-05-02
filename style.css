@@ -88,7 +88,7 @@ button[aria-label][data-balloon-pos] {
     -o-transform: translate(-50%, 3px);
 }
 [aria-label][data-balloon-pos][data-balloon-pos^="up"]:before, [aria-label][data-balloon-pos][data-balloon-pos^="up"]:after {
-    bottom: 90%;
+    bottom: 80%;
     transform-origin: top;
     transform: translate(0, var(--balloon-move));
     -webkit-transform: translate(0, var(--balloon-move));
@@ -276,7 +276,7 @@ header{
     color: #838383;
     font-family: "Lucida Console", monospace;
 }
-.header__connect-wallet:hover{
+.header__connect-wallet:hover, .header__connect-wallet-mobile:hover{
     color: #007aff;
 }
 .clear, .clear1{
@@ -729,6 +729,10 @@ particle {
     display: flex;
     align-items: center;
     font-family: 'Poppins', sans-serif;
+}
+.dropdown-item:last-child, .dropdown-item1:last-child{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 .wrapper__dropdown-item{
     overflow: hidden;
@@ -1364,17 +1368,18 @@ footer{
         display: none;
     }
     .header-links-mobile{
-        display: block;
+        display: flex;
         font-family: 'Roboto', sans-serif;
         margin-left: 15px;
-        display: flex;
-        justify-content: flex-start;
+        flex-direction: column;
         margin-top: 10px;
     }
     .header-link{
         margin-right: 15px;
         margin-bottom: 5px;
         width: fit-content;
+        font-size: 15px;
+        margin-bottom: 15px;
     }
     .hamburger-modal{
         width: 100%;
@@ -1389,7 +1394,7 @@ footer{
         font-size: 15px;
         color: #838383;
         font-family: "Lucida Console", monospace;
-
+        margin-bottom: 10px;
     }
     .header__search{
         margin-top: 5px;
@@ -1478,17 +1483,6 @@ footer{
         margin-top: 10px;
         margin-bottom: 10px;
         width: 93.5%;
-    }
-    .header-links-mobile{
-        display: flex;
-        justify-content: space-evenly;
-        margin-left: 0;
-    }
-    .header__connect-wallet-mobile{
-        margin: 0;
-    }
-    .header-link{
-        margin: 0;
     }
     .dropdown-mobile{
         width: 100%;
@@ -1680,6 +1674,12 @@ footer{
         white-space: nowrap;
         width: 220px;
     }
+    .header-link{
+        font-size: 14px;
+    }
+    .header__connect-wallet-mobile{
+        font-size: 14px;
+    }
 }
 @media screen and (max-width: 320px){
     .content__breadcrumb-item{
@@ -1713,12 +1713,6 @@ footer{
     }
     .footer-text-bottom{
         font-size: 10px;
-    }
-    .header-link{
-        font-size: 12px;
-    }
-    .header__connect-wallet-mobile{
-        font-size: 12px;
     }
     .header__search{
         margin-top: 10px;
