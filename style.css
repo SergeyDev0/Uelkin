@@ -759,7 +759,7 @@ particle {
 .header-arrow{
     width: 14px;
     position: absolute;
-    top: 9px !important;
+    top: 8px !important;
     right: 10px;
 }
 .dropdown-content a {
@@ -1357,12 +1357,12 @@ footer{
     }
 }
 @media screen and (max-width: 1024px){
-    .header__button-dropdown--user{
+    .header__wrapper-dropdown--user{
         position: relative;
     }
     .header__dropdown--user{
         position: absolute;
-        bottom: -35px;
+        bottom: -80px;
         right: 0;
         width: 120px;
         height: 80px;
@@ -1371,8 +1371,8 @@ footer{
         -moz-border-radius: 10px;
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
-        background-color: #adadad;
-}
+        background-color: #d6d6d6;
+    }
     .header__img-dropdown--user{
         width: 35px;
         height: 35px;
@@ -1381,14 +1381,14 @@ footer{
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
-}
+    }
     .header__button-dropdown--user{
         border-radius: 50%;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
-}
+    }
     .header__left-links{
         display: flex;
         align-items: center;
