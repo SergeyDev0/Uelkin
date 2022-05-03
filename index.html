@@ -345,7 +345,7 @@
                     
                         <div class="t396__artboard" style="display: flex; white-space: nowrap;">                
                             <div onclick="openModal()" class="slider__wrapper-imgs">
-                                <img  class="slider-img" src="https://lh3.googleusercontent.com/UJfU-yOtOVgx64x9APOF-BBOsOZpTvplyDvPTTYOC4C5LOeWGMKukvJ2xvtzSHiBcbd_BnXPKyd6xLWY4A2XznOSN1av0bm5DwHZJg=w600" alt="slider-img">
+                                <img class="slider-img" src="https://lh3.googleusercontent.com/UJfU-yOtOVgx64x9APOF-BBOsOZpTvplyDvPTTYOC4C5LOeWGMKukvJ2xvtzSHiBcbd_BnXPKyd6xLWY4A2XznOSN1av0bm5DwHZJg=w600" alt="slider-img">
                             </div>
                         </div>
                     </div>  
@@ -731,7 +731,11 @@
         })
     </script>
     <script>
-        let modal = document.querySelector('.modal');
+
+        const mediaQuery = window.matchMedia('(min-width: 1024px)')
+
+        if (mediaQuery.matches) {
+            let modal = document.querySelector('.modal');
         let modalWrImg = document.querySelector('.modal__wrapper-img');
         let modalImg = document.querySelector('.modal__img');
         let openModall = 0;
@@ -754,6 +758,10 @@
         if(openModall > 2){
             openModall = 2;
         }
+        } else{
+            document.querySelector('.slider__wrapper-imgs').removeAttribute('onclick')
+        }
+        
     </script>
     <script>
         $(window).on('load', function () {
