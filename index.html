@@ -328,7 +328,7 @@
                         </div>
                         <div class="content-info__popular">
                             <div class="popular-number">
-                                <i data-type="shadow" onclick="heartIcon()" class="icons cursor fa-regular fa-heart"></i>
+                                <i data-type="shadow" class="icons cursor fa-regular fa-heart"></i>
                                 <p class="quality-likes qual-heart"></p>
                             </div>
                             <p class="popular__quality"><i class="icons fa-regular fa-eyes"></i>0 </p>
@@ -590,7 +590,7 @@
                             </div>
                             <div class="catalog__wrapper-favorite">
                                 <div class="popular-number no-before hearts">
-                                    <i data-type="shadow" onclick="heartIcon1()" class="icons heart-catalog cursor fa-regular fa-heart heart1"></i>
+                                    <i data-type="shadow" class="icons heart-catalog cursor fa-regular fa-heart heart1"></i>
                                     <p class="quality-likes1 qual-heart qual-heart-catalog"></p>
                                 </div>
                             </div>
@@ -614,7 +614,7 @@
                             </div>
                             <div class="catalog__wrapper-favorite">
                                 <div class="popular-number no-before hearts">
-                                    <i data-type="shadow" onclick="heartIcon2()" class="icons cursor fa-regular heart-catalog fa-heart heart2"></i>
+                                    <i data-type="shadow" class="icons cursor fa-regular heart-catalog fa-heart heart2"></i>
                                     <p class="quality-likes2 qual-heart qual-heart-catalog"></p>
                                 </div>
                             </div>
@@ -638,7 +638,7 @@
                             </div>
                             <div class="catalog__wrapper-favorite">
                                 <div class="popular-number no-before hearts">
-                                    <i data-type="shadow" onclick="heartIcon3()" class="icons cursor fa-regular heart-catalog fa-heart heart3"></i>
+                                    <i data-type="shadow" class="icons cursor fa-regular heart-catalog fa-heart heart3"></i>
                                     <p class="quality-likes3 qual-heart qual-heart-catalog"></p>
                                 </div>
                             </div>
@@ -662,7 +662,7 @@
                             </div>
                             <div class="catalog__wrapper-favorite">
                                 <div class="popular-number no-before hearts">
-                                    <i data-type="shadow" onclick="heartIcon4()" class="icons cursor fa-regular heart-catalog fa-heart heart4"></i>
+                                    <i data-type="shadow" class="icons cursor fa-regular heart-catalog fa-heart heart4"></i>
                                     <p class="quality-likes4 qual-heart qual-heart-catalog"></p>
                                 </div>
                             </div>
@@ -685,10 +685,9 @@
             </h4>
         </footer>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
         let inputHeader = document.querySelector('.header__search-input')
-        $(inputHeader).keyup(function(event){
+        inputHeader.addEventListener('keyup', function(event){
             if(event.keyCode == 13){
                 event.preventDefault();
                 document.location.href = './search.html'
@@ -727,7 +726,7 @@
         let hamburgerModal = document.querySelector('.hamburger-modal');
         let btnHamburger = document.querySelector('.hamburger');
         btnHamburger.addEventListener('click', function(){
-            $(hamburgerModal).toggleClass('hide');
+            hamburgerModal.classList.toggle('hide');
         })
     </script>
     <script>
@@ -764,9 +763,9 @@
         
     </script>
     <script>
-        $(window).on('load', function () {
-            $('.preloader').addClass("preloader-remove");     
-        });
+        window.onload = function(){
+            document.querySelector('.preloader').classList.add("preloader-remove");    
+        };
     </script>
     <script>
         let hideEmoji = document.querySelector('.emoji-container');
@@ -778,35 +777,35 @@
         function btnEmoji(){
             openEmoji = +1;
             k = 0;
-            $(hideEmoji).toggleClass('show-emoji');
+            hideEmoji.classList.toggle('show-emoji');
             l = 1;
             hideEmoji2.classList.remove('show-emoji');
             hideEmoji3.classList.remove('show-emoji');
         }
         function btnEmoji2(){
             k = 0;
-            $(hideEmoji2).toggleClass('show-emoji');
+            hideEmoji2.classList.toggle('show-emoji');
             l = 1;
             hideEmoji.classList.remove('show-emoji');
             hideEmoji3.classList.remove('show-emoji');
         }
         function btnEmoji3(){
             k = 0;
-            $(hideEmoji3).toggleClass('show-emoji');
+            hideEmoji3.classList.toggle('show-emoji');
             l = 1;
             hideEmoji.classList.remove('show-emoji');
             hideEmoji2.classList.remove('show-emoji');
         }
         function btnEmoji4(){
             k = 0;
-            $(hideEmoji4).toggleClass('show-emoji');
+            hideEmoji4.classList.toggle('show-emoji');
             l = 1;
             hideEmoji.classList.remove('show-emoji');
             hideEmoji2.classList.remove('show-emoji');
         }
         function btnEmoji5(){
             k = 0;
-            $(hideEmoji5).toggleClass('show-emoji');
+            hideEmoji5.classList.toggle('show-emoji');
             l = 1;
             hideEmoji.classList.remove('show-emoji');
             hideEmoji2.classList.remove('show-emoji');
@@ -841,6 +840,7 @@
                     let txt = Number(s.textContent || s.innerText);
                     let arrayQualEmojies = [txt];
                     arrayQualEmojies.every(function(){
+
                         if(arrayQualEmojies == 0){
                             hideEmoji2.classList.add('top50px');
                         }
@@ -890,9 +890,9 @@
     <script>
         headerButtonDropdown = document.querySelector('.header__button-dropdown--user');
         headerDropdown = document.querySelector('.header__dropdown--user');
-        headerButtonDropdown.addEventListener('click', function(e){
+        headerButtonDropdown.addEventListener('click', function(){
             k = 0;
-            $(headerDropdown).toggleClass('hide');
+            headerDropdown.classList.toggle('hide')
             l = 1;    
         })
         
@@ -941,12 +941,12 @@
         let l = 0;
         function myFunction() {
             k = 0;
-            $(drop).toggleClass("show");
+            drop.classList.toggle("show");
             l = 1;
         }
         function myFunction1() {
             k = 0;
-            $(drop1).toggleClass("show1");
+            drop1.classList.toggle("show1");
             l = 1;
         }
         window.onclick = function(event) {
@@ -1016,8 +1016,10 @@
         qualityLike2.innerHTML = quality2;
         qualityLike3.innerHTML = quality3;
         qualityLike4.innerHTML = quality4;
-        function heartIcon(){
-            $(heart).toggleClass('fa-regular fa');
+        heart.addEventListener('click', function(){
+            heart.classList.toggle('fa-regular');
+            heart.classList.toggle('fa');
+            heart.classList.toggle('red');
             m += 1;
             if (m % 2 !== 0) {
                 quality += 1;
@@ -1026,9 +1028,11 @@
                 quality -= 1;
             }  
             qualityLike.innerHTML = quality;
-        }
-        function heartIcon1(){
-            $(heart1).toggleClass('fa-regular fa red');
+        })
+        heart1.addEventListener('click', function(){
+            heart1.classList.toggle('fa-regular');
+            heart1.classList.toggle('fa');
+            heart1.classList.toggle('red');
             n += 1;
             if (n % 2 !== 0) {
                 quality1 += 1;
@@ -1037,9 +1041,11 @@
                 quality1 -= 1;
             }
             qualityLike1.innerHTML = quality1;
-        }
-        function heartIcon2(){
-            $(heart2).toggleClass('fa-regular fa red');
+        });
+        heart2.addEventListener('click', function(){
+            heart2.classList.toggle('fa-regular');
+            heart2.classList.toggle('fa');
+            heart2.classList.toggle('red');
             u += 1;
             if (u % 2 !== 0) {
                 quality2 += 1;
@@ -1048,9 +1054,11 @@
                 quality2 -= 1;
             }
             qualityLike2.innerHTML = quality2;
-        }
-        function heartIcon3(){
-            $(heart3).toggleClass('fa-regular fa red');
+        })
+        heart3.addEventListener('click', function(){
+            heart3.classList.toggle('fa-regular');
+            heart3.classList.toggle('fa');
+            heart3.classList.toggle('red');
             s += 1;
             if (s % 2 !== 0) {
                 quality3 += 1;
@@ -1059,9 +1067,11 @@
                 quality3 -= 1;
             }
             qualityLike3.innerHTML = quality3;
-        }
-        function heartIcon4(){
-            $(heart4).toggleClass('fa-regular fa red');
+        })
+        heart4.addEventListener('click', function(){
+            heart4.classList.toggle('fa-regular');
+            heart4.classList.toggle('fa');
+            heart4.classList.toggle('red');
             p += 1;
             if (p % 2 !== 0) {
                 quality4 += 1;
@@ -1070,7 +1080,7 @@
                 quality4 -= 1;
             }
             qualityLike4.innerHTML = quality4;
-        }
+        })
         let f = 0;
         function ff(){
             f++;
@@ -1079,8 +1089,6 @@
         function gg(){
             g++;
         }
-    </script>
-    <script>
         function pop (e) {
         let amount = 30;
         switch (e.target.dataset.type) {
