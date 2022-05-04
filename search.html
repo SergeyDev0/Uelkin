@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,8 @@
     <link rel="stylesheet" href="./style.css">
     <title>Uelkin | Search</title>
 </head>
-<body>
+
+<body onclick="hide()">
     <header>
         <div class="wrapper-header">
             <div class="header__wrapper-logo">
@@ -25,12 +27,12 @@
                 <div class="header__wrapper-nav">
                     <div class="header__search">
                         <div class="dropdown">
-                        <input class="header__search-input" onclick="myFunction()" type="text" placeholder="Search for items...">
-                        <button onclick="clearr()" class="clear"></button>
+                            <input class="header__search-input" onclick="myFunction()" type="text" placeholder="Search for items...">
+                            <button onclick="clearr()" class="clear"></button>
                             <div id="myDropdown" class="dropdown-content">
                                 <p class="dropdown-title">Популярные запросы</p>
                                 <a class="dropdown-item" href="#">
-                                    <div class="dropdown__wrapper-img"><img class="dropdown__header-img" src="https://i.artfile.ru/1920x1200_1411196_[www.ArtFile.ru].jpg" alt="img" onerror="this.style.visibility = 'hidden'"></div> 
+                                    <div class="dropdown__wrapper-img"><img class="dropdown__header-img" src="https://i.artfile.ru/1920x1200_1411196_[www.ArtFile.ru].jpg" alt="img" onerror="this.style.visibility = 'hidden'"></div>
                                     <div class="dropdown__wrapper-content">
                                         <p class="wrapper__dropdown-item">Monster Memes 4218</p>
                                         <div aria-label="Verified" data-balloon-pos="up"><i class="dropdown__person far fa-badge-check" style="color:#0E7AFE"></i></div>
@@ -51,7 +53,7 @@
                                     </svg>
                                 </a>
                                 <a class="dropdown-item" href="#">
-                                    <div class="dropdown__wrapper-img"><img class="dropdown__header-img" src="https://i.artfile.ru/1920x1200_1411196_[www.ArtFile.ru].jpg" alt="img" onerror="this.style.visibility = 'hidden'"></div> 
+                                    <div class="dropdown__wrapper-img"><img class="dropdown__header-img" src="https://i.artfile.ru/1920x1200_1411196_[www.ArtFile.ru].jpg" alt="img" onerror="this.style.visibility = 'hidden'"></div>
                                     <div class="dropdown__wrapper-content">
                                         <p class="wrapper__dropdown-item">Литрес</p>
                                         <div aria-label="Verified" data-balloon-pos="up"><i class="dropdown__person far fa-badge-check" style="color:#0E7AFE"></i></div>
@@ -72,7 +74,7 @@
                                     </svg>
                                 </a>
                                 <a class="dropdown-item" href="#">
-                                    <div class="dropdown__wrapper-img"><img class="dropdown__header-img" src="https://i.artfile.ru/1920x1200_1411196_[www.ArtFile.ru].jpg" alt="img" onerror="this.style.visibility = 'hidden'"></div> 
+                                    <div class="dropdown__wrapper-img"><img class="dropdown__header-img" src="https://i.artfile.ru/1920x1200_1411196_[www.ArtFile.ru].jpg" alt="img" onerror="this.style.visibility = 'hidden'"></div>
                                     <div class="dropdown__wrapper-content">
                                         <p class="wrapper__dropdown-item">Литрес</p>
                                         <div aria-label="Verified" data-balloon-pos="up"><i class="dropdown__person far fa-badge-check" style="color:#0E7AFE"></i></div>
@@ -93,7 +95,7 @@
                                     </svg>
                                 </a>
                                 <a class="dropdown-item" href="#">
-                                    <div class="dropdown__wrapper-img"><img class="dropdown__header-img" src="https://i.artfile.ru/1920x1200_1411196_[www.ArtFile.ru].jpg" alt="img" onerror="this.style.visibility = 'hidden'"></div> 
+                                    <div class="dropdown__wrapper-img"><img class="dropdown__header-img" src="https://i.artfile.ru/1920x1200_1411196_[www.ArtFile.ru].jpg" alt="img" onerror="this.style.visibility = 'hidden'"></div>
                                     <div class="dropdown__wrapper-content">
                                         <p class="wrapper__dropdown-item">Литрес</p>
                                         <div aria-label="Verified" data-balloon-pos="up"><i class="dropdown__person far fa-badge-check" style="color:#0E7AFE"></i></div>
@@ -114,7 +116,7 @@
                                     </svg>
                                 </a>
                                 <a class="dropdown-item" href="#">
-                                    <div class="dropdown__wrapper-img"><img class="dropdown__header-img" src="https://i.artfile.ru/1920x1200_1411196_[www.ArtFile.ru].jpg" alt="img" onerror="this.style.visibility = 'hidden'"></div> 
+                                    <div class="dropdown__wrapper-img"><img class="dropdown__header-img" src="https://i.artfile.ru/1920x1200_1411196_[www.ArtFile.ru].jpg" alt="img" onerror="this.style.visibility = 'hidden'"></div>
                                     <div class="dropdown__wrapper-content">
                                         <p class="wrapper__dropdown-item">Литрес</p>
                                         <div aria-label="Verified" data-balloon-pos="up"><i class="dropdown__person far fa-badge-check" style="color:#0E7AFE"></i></div>
@@ -163,21 +165,21 @@
                             <div class="header__dropdown--user hide"></div>
                         </div>
                     </div>
-                <div class="header__search">
-                    <div class="dropdown">
-                    <input class="header__search-input1" onclick="myFunction1()" type="text" placeholder="Search for items...">
-                    <button onclick="clearr1()" class="clear1"></button>
-                    <div id="myDropdown1" class="dropdown-content1">
-                        <p class="dropdown-title">Популярные запросы</p>
-                        <a class="dropdown-item" href="#">
-                            <div class="dropdown__wrapper-img"><img class="dropdown__header-img" src="https://i.artfile.ru/1920x1200_1411196_[www.ArtFile.ru].jpg" alt="img" onerror="this.style.visibility = 'hidden'"></div> 
-                            <div class="dropdown__wrapper-content">
-                                <p class="wrapper__dropdown-item">Monster Memes 4218</p>
-                                <div aria-label="Verified" data-balloon-pos="up">
-                                    <i class="dropdown__person far fa-badge-check" style="color:#0E7AFE"></i>
-                                </div>
-                            </div>
-                            <svg class="intelligence-arrow header-arrow" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <div class="header__search">
+                        <div class="dropdown">
+                            <input class="header__search-input1" onclick="myFunction1()" type="text" placeholder="Search for items...">
+                            <button onclick="clearr1()" class="clear1"></button>
+                            <div id="myDropdown1" class="dropdown-content1">
+                                <p class="dropdown-title">Популярные запросы</p>
+                                <a class="dropdown-item" href="#">
+                                    <div class="dropdown__wrapper-img"><img class="dropdown__header-img" src="https://i.artfile.ru/1920x1200_1411196_[www.ArtFile.ru].jpg" alt="img" onerror="this.style.visibility = 'hidden'"></div>
+                                    <div class="dropdown__wrapper-content">
+                                        <p class="wrapper__dropdown-item">Monster Memes 4218</p>
+                                        <div aria-label="Verified" data-balloon-pos="up">
+                                            <i class="dropdown__person far fa-badge-check" style="color:#0E7AFE"></i>
+                                        </div>
+                                    </div>
+                                    <svg class="intelligence-arrow header-arrow" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <defs>
                                 <path d="M48.5857864,0.585786438 C49.366835,-0.195262146 50.633165,-0.195262146 51.4142136,0.585786438 C52.1952621,1.36683502 52.1952621,2.63316498 51.4142136,3.41421356 L27.4142136,27.4142136 C26.633165,28.1952621 25.366835,28.1952621 24.5857864,27.4142136 L0.585786438,3.41421356 C-0.195262146,2.63316498 -0.195262146,1.36683502 0.585786438,0.585786438 C1.36683502,-0.195262146 2.63316498,-0.195262146 3.41421356,0.585786438 L26,23.1715729 L48.5857864,0.585786438 Z" id="path-1"></path>
                             </defs>
@@ -191,14 +193,14 @@
                                 </g>
                             </g>
                             </svg>
-                        </a>
-                        <a class="dropdown-item" href="#">
-                            <div class="dropdown__wrapper-img"><img class="dropdown__header-img" src="https://i.artfile.ru/1920x1200_1411196_[www.ArtFile.ru].jpg" alt="img" onerror="this.style.visibility = 'hidden'"></div> 
-                            <div class="dropdown__wrapper-content">
-                                <p class="wrapper__dropdown-item">Monster Memes 4218</p>
-                                <div aria-label="Verified" data-balloon-pos="up"><i class="dropdown__person far fa-badge-check" style="color:#0E7AFE"></i></div>
-                            </div>
-                            <svg class="intelligence-arrow header-arrow" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <div class="dropdown__wrapper-img"><img class="dropdown__header-img" src="https://i.artfile.ru/1920x1200_1411196_[www.ArtFile.ru].jpg" alt="img" onerror="this.style.visibility = 'hidden'"></div>
+                                    <div class="dropdown__wrapper-content">
+                                        <p class="wrapper__dropdown-item">Monster Memes 4218</p>
+                                        <div aria-label="Verified" data-balloon-pos="up"><i class="dropdown__person far fa-badge-check" style="color:#0E7AFE"></i></div>
+                                    </div>
+                                    <svg class="intelligence-arrow header-arrow" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <defs>
                                 <path d="M48.5857864,0.585786438 C49.366835,-0.195262146 50.633165,-0.195262146 51.4142136,0.585786438 C52.1952621,1.36683502 52.1952621,2.63316498 51.4142136,3.41421356 L27.4142136,27.4142136 C26.633165,28.1952621 25.366835,28.1952621 24.5857864,27.4142136 L0.585786438,3.41421356 C-0.195262146,2.63316498 -0.195262146,1.36683502 0.585786438,0.585786438 C1.36683502,-0.195262146 2.63316498,-0.195262146 3.41421356,0.585786438 L26,23.1715729 L48.5857864,0.585786438 Z" id="path-1"></path>
                             </defs>
@@ -212,14 +214,14 @@
                                 </g>
                             </g>
                             </svg>
-                        </a>
-                        <a class="dropdown-item" href="#">
-                            <div class="dropdown__wrapper-img"><img class="dropdown__header-img" src="https://i.artfile.ru/1920x1200_1411196_[www.ArtFile.ru].jpg" alt="img" onerror="this.style.visibility = 'hidden'"></div> 
-                            <div class="dropdown__wrapper-content">
-                                <p class="wrapper__dropdown-item">Monster Memes 4218</p>
-                                <div aria-label="Verified" data-balloon-pos="up"><i class="dropdown__person far fa-badge-check" style="color:#0E7AFE"></i></div>
-                            </div>
-                            <svg class="intelligence-arrow header-arrow" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <div class="dropdown__wrapper-img"><img class="dropdown__header-img" src="https://i.artfile.ru/1920x1200_1411196_[www.ArtFile.ru].jpg" alt="img" onerror="this.style.visibility = 'hidden'"></div>
+                                    <div class="dropdown__wrapper-content">
+                                        <p class="wrapper__dropdown-item">Monster Memes 4218</p>
+                                        <div aria-label="Verified" data-balloon-pos="up"><i class="dropdown__person far fa-badge-check" style="color:#0E7AFE"></i></div>
+                                    </div>
+                                    <svg class="intelligence-arrow header-arrow" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <defs>
                                 <path d="M48.5857864,0.585786438 C49.366835,-0.195262146 50.633165,-0.195262146 51.4142136,0.585786438 C52.1952621,1.36683502 52.1952621,2.63316498 51.4142136,3.41421356 L27.4142136,27.4142136 C26.633165,28.1952621 25.366835,28.1952621 24.5857864,27.4142136 L0.585786438,3.41421356 C-0.195262146,2.63316498 -0.195262146,1.36683502 0.585786438,0.585786438 C1.36683502,-0.195262146 2.63316498,-0.195262146 3.41421356,0.585786438 L26,23.1715729 L48.5857864,0.585786438 Z" id="path-1"></path>
                             </defs>
@@ -233,14 +235,14 @@
                                 </g>
                             </g>
                             </svg>
-                        </a>
-                        <a class="dropdown-item" href="#">
-                            <div class="dropdown__wrapper-img"><img class="dropdown__header-img" src="https://i.artfile.ru/1920x1200_1411196_[www.ArtFile.ru].jpg" alt="img" onerror="this.style.visibility = 'hidden'"></div> 
-                            <div class="dropdown__wrapper-content">
-                                <p class="wrapper__dropdown-item">Monster Memes 4218</p>
-                                <div aria-label="Verified" data-balloon-pos="up"><i class="dropdown__person far fa-badge-check" style="color:#0E7AFE"></i></div>
-                            </div>
-                            <svg class="intelligence-arrow header-arrow" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <div class="dropdown__wrapper-img"><img class="dropdown__header-img" src="https://i.artfile.ru/1920x1200_1411196_[www.ArtFile.ru].jpg" alt="img" onerror="this.style.visibility = 'hidden'"></div>
+                                    <div class="dropdown__wrapper-content">
+                                        <p class="wrapper__dropdown-item">Monster Memes 4218</p>
+                                        <div aria-label="Verified" data-balloon-pos="up"><i class="dropdown__person far fa-badge-check" style="color:#0E7AFE"></i></div>
+                                    </div>
+                                    <svg class="intelligence-arrow header-arrow" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <defs>
                                 <path d="M48.5857864,0.585786438 C49.366835,-0.195262146 50.633165,-0.195262146 51.4142136,0.585786438 C52.1952621,1.36683502 52.1952621,2.63316498 51.4142136,3.41421356 L27.4142136,27.4142136 C26.633165,28.1952621 25.366835,28.1952621 24.5857864,27.4142136 L0.585786438,3.41421356 C-0.195262146,2.63316498 -0.195262146,1.36683502 0.585786438,0.585786438 C1.36683502,-0.195262146 2.63316498,-0.195262146 3.41421356,0.585786438 L26,23.1715729 L48.5857864,0.585786438 Z" id="path-1"></path>
                             </defs>
@@ -254,14 +256,14 @@
                                 </g>
                             </g>
                             </svg>
-                        </a>
-                        <a class="dropdown-item" href="#">
-                            <div class="dropdown__wrapper-img"><img class="dropdown__header-img" src="https://i.artfile.ru/1920x1200_1411196_[www.ArtFile.ru].jpg" alt="img" onerror="this.style.visibility = 'hidden'"></div> 
-                            <div class="dropdown__wrapper-content">
-                                <p class="wrapper__dropdown-item">Monster Memes 4218</p>
-                                <div aria-label="Verified" data-balloon-pos="up"><i class="dropdown__person far fa-badge-check" style="color:#0E7AFE"></i></div>
-                            </div>
-                            <svg class="intelligence-arrow header-arrow" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <div class="dropdown__wrapper-img"><img class="dropdown__header-img" src="https://i.artfile.ru/1920x1200_1411196_[www.ArtFile.ru].jpg" alt="img" onerror="this.style.visibility = 'hidden'"></div>
+                                    <div class="dropdown__wrapper-content">
+                                        <p class="wrapper__dropdown-item">Monster Memes 4218</p>
+                                        <div aria-label="Verified" data-balloon-pos="up"><i class="dropdown__person far fa-badge-check" style="color:#0E7AFE"></i></div>
+                                    </div>
+                                    <svg class="intelligence-arrow header-arrow" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <defs>
                                 <path d="M48.5857864,0.585786438 C49.366835,-0.195262146 50.633165,-0.195262146 51.4142136,0.585786438 C52.1952621,1.36683502 52.1952621,2.63316498 51.4142136,3.41421356 L27.4142136,27.4142136 C26.633165,28.1952621 25.366835,28.1952621 24.5857864,27.4142136 L0.585786438,3.41421356 C-0.195262146,2.63316498 -0.195262146,1.36683502 0.585786438,0.585786438 C1.36683502,-0.195262146 2.63316498,-0.195262146 3.41421356,0.585786438 L26,23.1715729 L48.5857864,0.585786438 Z" id="path-1"></path>
                             </defs>
@@ -275,11 +277,11 @@
                                 </g>
                             </g>
                             </svg>
-                        </a>
-                    </div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
         </div>
     </header>
@@ -340,13 +342,126 @@
     </section>
     <footer>
         <h4 class="footer-text">
-            <a class="footer-blue-link" href="#">Subscribe to our social media</a>
-            |
+            <a class="footer-blue-link" href="#">Subscribe to our social media</a> |
             <a href="#" class="footer-blue-link">FAQ on the platform</a>
         </h4>
         <h4 class="footer-text-bottom">
             Uelkin D.A.O. With love for you. 2022
         </h4>
     </footer>
+    <script>
+        let inputHeader = document.querySelector('.header__search-input')
+        inputHeader.addEventListener('keyup', function(event) {
+            if (event.keyCode == 13) {
+                event.preventDefault();
+                document.location.href = './search.html'
+            }
+        });
+    </script>
+    <script>
+        headerButtonDropdown = document.querySelector('.header__button-dropdown--user');
+        headerDropdown = document.querySelector('.header__dropdown--user');
+        headerButtonDropdown.addEventListener('click', function() {
+            k = 0;
+            headerDropdown.classList.toggle('hide')
+            l = 1;
+        })
+
+        let input = document.querySelector('.header__search-input');
+        let input1 = document.querySelector('.header__search-input1');
+        input.addEventListener('input', noneClear);
+        input1.addEventListener('input', noneClear1);
+
+        function check() {
+            console.log("qq")
+        }
+
+        function clearr() {
+            input.value = "";
+            clear.classList.remove('none-clear')
+        }
+        let clear = document.querySelector('.clear');
+        let clear1 = document.querySelector('.clear1');
+
+        function clearr1() {
+            input1.value = "";
+            clear1.classList.remove('none-clear')
+        }
+
+        function noneClear() {
+            if (input.value.length == 0) { // Если нет текста
+                clear.classList.remove('none-clear');
+            } else {
+                clear.classList.add('none-clear');
+            }
+        }
+
+        function noneClear1() {
+            if (input1.value.length == 0) { // Если нет текста
+                clear1.classList.remove('none-clear');
+            } else {
+                clear1.classList.add('none-clear');
+            }
+        }
+
+
+        let drop = document.querySelector('.dropdown-content');
+        let drop1 = document.querySelector('.dropdown-content1');
+        let k = 0;
+        let l = 0;
+
+        function myFunction() {
+            k = 0;
+            drop.classList.toggle("show");
+            l = 1;
+        }
+
+        function myFunction1() {
+            k = 0;
+            drop1.classList.toggle("show1");
+            l = 1;
+        }
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                }
+            }
+        }
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+
+                var dropdowns1 = document.getElementsByClassName("dropdown-content1");
+                var i;
+                for (i = 0; i < dropdowns1.length; i++) {
+                    var openDropdown1 = dropdowns1[i];
+                }
+            }
+        }
+
+        function hide() {
+            if (k == 1) {
+                drop.classList.remove("show");
+                drop1.classList.remove("show1");
+                headerDropdown.classList.add('hide');
+                k -= 1;
+                l -= 1;
+            }
+            if (l == 1) {
+                k += 1;
+            } else if (l !== 1) {
+                k = 0;
+            }
+        }
+        let hamburgerModal = document.querySelector('.hamburger-modal');
+        let btnHamburger = document.querySelector('.hamburger');
+        btnHamburger.addEventListener('click', function() {
+            hamburgerModal.classList.toggle('hide');
+        })
+    </script>
 </body>
+
 </html>
