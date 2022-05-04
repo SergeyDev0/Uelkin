@@ -1230,7 +1230,7 @@ footer{
     flex-grow: 1;
 }
 .search-item{
-
+    box-sizing: content-box;
     display: flex;
     align-items: center;
     height: 60px;
