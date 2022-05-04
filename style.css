@@ -1225,12 +1225,27 @@ footer{
     margin: 35px auto;
 }
 .search-item{
+    box-sizing: content-box;
     display: flex;
     align-items: center;
     height: 60px;
-    margin: 16px 0;
+    margin: 10px 0;
+    padding: 10px;
     width: 100%;
     justify-content: space-between;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: .24s;
+    -webkit-transition: .24s;
+    -moz-transition: .24s;
+    -ms-transition: .24s;
+    -o-transition: .24s;
+}
+.search-item:hover{
+    box-shadow: 0px 0px 6px 0px #dddddd;
 }
 .search-item__img{
     height: 100%;
