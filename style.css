@@ -121,6 +121,9 @@ rect {
 }
 body{
     font-family: 'Lucida Console', monospace;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 ul{
     list-style: none;
@@ -942,6 +945,7 @@ footer{
     width: 100%;
     background-color: #F2F2F2;
     margin-top: 15px;
+    flex-shrink: 0;
 }
 .footer-text{
     font-weight: 400;
@@ -1223,9 +1227,10 @@ footer{
 .search-section{
     width: 712px;
     margin: 35px auto;
+    flex-grow: 1;
 }
 .search-item{
-    box-sizing: content-box;
+
     display: flex;
     align-items: center;
     height: 60px;
