@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@18657a9/css/all.min.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="./style.css">
-    <title>Uelkin | Search</title>
+    <title>Uelkin | Results</title>
 </head>
 
 <body onclick="hide()">
@@ -349,15 +349,6 @@
             Uelkin D.A.O. With love for you. 2022
         </h4>
     </footer>
-    <script>
-        let inputHeader = document.querySelector('.header__search-input')
-        inputHeader.addEventListener('keyup', function(event) {
-            if (event.keyCode == 13) {
-                event.preventDefault();
-                document.location.href = './search.html'
-            }
-        });
-    </script>
     <script>
         headerButtonDropdown = document.querySelector('.header__button-dropdown--user');
         headerDropdown = document.querySelector('.header__dropdown--user');

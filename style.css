@@ -1563,7 +1563,9 @@ footer {
 .search-title {
     margin-bottom: 32px;
 }
-
+.section__view-all{
+    flex-grow: 1;
+}
 @media screen and (min-width: 1024px) {
     .wrapper-hamburger {
         display: none;
