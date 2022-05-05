@@ -1485,15 +1485,10 @@ footer {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    transition: .24s;
-    -webkit-transition: .24s;
-    -moz-transition: .24s;
-    -ms-transition: .24s;
-    -o-transition: .24s;
 }
 
 .search-item:hover {
-    box-shadow: 0px 0px 3px 0px #007aff;
+    box-shadow: 0px 0px 3px 0px #0153aa;
 }
 
 .search-item__img {
