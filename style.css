@@ -938,16 +938,17 @@ particle {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-    border-bottom: 1px solid #f2f2f2;
 }
 
 .comments__main-title {
-    font-size: 13px;
+    font-size: 14px;
     color: gray;
     font-family: 'Roboto', 'Arial Rl', sans-serif;
     margin-top: 3px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f2f2f2;
 }
 
 .comments-title {
@@ -980,7 +981,7 @@ particle {
     align-items: center;
     width: 100%;
     font-weight: 400;
-    margin-bottom: 10px;
+    margin-top: 10px;
     padding: 8px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -988,10 +989,6 @@ particle {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     background-color: #F7F7F7;
-}
-
-.comment:last-child{
-    margin-bottom: 0px;
 }
 
 .comment__wrapper-name {
