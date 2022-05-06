@@ -987,6 +987,7 @@ particle {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    border-bottom: 1px solid #F7F7F7;
 }
 
 .comment:last-child{
