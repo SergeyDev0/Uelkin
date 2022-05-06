@@ -1040,12 +1040,7 @@ particle {
     background-size: cover;
 }
 
-.emoji-container,
-.emoji-container2,
-.emoji-container3,
-.emoji-container4,
-.emoji-container5,
-.emoji-container6 {
+.emoji-container {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -1075,6 +1070,11 @@ particle {
 
 .emoji-item {
     height: 25px;
+}
+
+.btn-emoji-icon-full{
+    width: 20px;
+    height: 20px;
 }
 
 .btn-emoji {
@@ -1685,12 +1685,7 @@ footer {
     .catalog {
         width: 85%;
     }
-    .emoji-container,
-    .emoji-container2,
-    .emoji-container3,
-    .emoji-container4,
-    .emoji-container5,
-    .emoji-container6 {
+    .emoji-container{
         left: 20%;
     }
 }
@@ -1865,9 +1860,34 @@ footer {
     .comments-body__messasge {
         width: 325px;
     }
+    .comment__full-avatar{
+        width: 32px;
+        height: 32px;
+    }
+    .comment__wrapper__full-name{
+        font-size: 16px;
+    }
+    .comment__full-avatar{
+        margin-right: 8px;
+    }
 }
 
 @media screen and (max-width: 425px) {
+    .comment__wrapper__full-name{
+        font-size: 15px;
+    }
+    .comment__full-avatar{
+        width: 28px;
+        height: 28px;
+    }
+    .btn-emoji-icon-full{
+        width: 19px;
+        height: 19px;
+        margin-right: 0;
+    }
+    .comments-full-body__messasge{
+        font-size: 14.7px;
+    }
     .header__search {
         margin: 0 auto;
         margin-top: 0px;
@@ -1901,7 +1921,10 @@ footer {
         margin-bottom: 1px;
         margin-top: 3.5px;
     }
-    .intelligence-arrow {
+    .intelligenc.btn-emoji-icon-full{
+        width: 17px;
+        height: 17px;
+    }e-arrow {
         width: 14px;
         height: 14px;
     }
@@ -1969,12 +1992,7 @@ footer {
         font-size: 14px;
         margin: 0;
     }
-    .emoji-container,
-    .emoji-container2,
-    .emoji-container3,
-    .emoji-container4,
-    .emoji-container5,
-    .emoji-container6 {
+    .emoji-container{
         left: 20%;
     }
     .btn-emoji-conteiner {
@@ -2002,12 +2020,7 @@ footer {
         position: relative;
         margin-bottom: 7px;
     }
-    .emoji-container,
-    .emoji-container2,
-    .emoji-container3,
-    .emoji-container4,
-    .emoji-container5,
-    .emoji-container6 {
+    .emoji-container{
         left: -240%;
     }
     .header-link {
@@ -2023,6 +2036,15 @@ footer {
 }
 
 @media screen and (max-width: 380px) {
+    .comment__full-name{
+        width: 80px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: inline-block;
+    }
+    .comments-full-body__messasge{
+        font-size: 13px;
+    }
     .header__dropdown--user {
         bottom: -100%;
     }
@@ -2102,6 +2124,10 @@ footer {
 }
 
 @media screen and (max-width: 320px) {
+    .btn-emoji-icon-full{
+        width: 17px;
+        height: 17px;
+    }
     .header-links-mobile {
         padding: 0 14px;
     }
