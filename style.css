@@ -990,8 +990,11 @@ particle {
 }
 
 .comment:last-child{
-    margin-bottom: 0;
-    border-bottom: none;
+    border-bottom: 10px solid black;
+}
+
+.no-border{
+    border: 0px;
 }
 
 .comment__wrapper-name {
