@@ -989,12 +989,8 @@ particle {
     border-bottom: 1px solid #F7F7F7;
 }
 
-.comment:last-child{
-    border-bottom: 10px solid black;
-}
-
-.no-border{
-    border: 0px;
+.comment:nth-last-child(2){
+    border-bottom: 0px solid black;
 }
 
 .comment__wrapper-name {
