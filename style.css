@@ -1561,6 +1561,7 @@ footer {
 
 .search-title {
     margin-bottom: 32px;
+    font-size: 24px;
 }
 .section__view-all{
     flex-grow: 1;
@@ -1691,6 +1692,9 @@ footer {
 }
 
 @media screen and (max-width: 1024px) {
+    .search-title{
+        font-size: 20px;
+    }
     .header__wrapper-dropdown--user {
         position: relative;
     }
@@ -1873,6 +1877,9 @@ footer {
 }
 
 @media screen and (max-width: 425px) {
+    .search-title{
+        font-size: 17px;
+    }
     .comment__wrapper__full-name{
         font-size: 15px;
     }
@@ -1921,12 +1928,9 @@ footer {
         margin-bottom: 1px;
         margin-top: 3.5px;
     }
-    .intelligenc.btn-emoji-icon-full{
+    .btn-emoji-icon-full{
         width: 17px;
         height: 17px;
-    }e-arrow {
-        width: 14px;
-        height: 14px;
     }
     .comment-avatar {
         width: 23px;
@@ -2124,6 +2128,9 @@ footer {
 }
 
 @media screen and (max-width: 320px) {
+    .search-section{
+        width: 85%;
+    }
     .btn-emoji-icon-full{
         width: 17px;
         height: 17px;
@@ -2169,12 +2176,7 @@ footer {
     .catalog-title {
         width: 180px;
     }
-    .emoji-container,
-    .emoji-container2,
-    .emoji-container3,
-    .emoji-container4,
-    .emoji-container5,
-    .emoji-container6 {
+    .emoji-container{
         left: -200%;
         padding: 6px;
     }
