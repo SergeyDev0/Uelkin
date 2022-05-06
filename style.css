@@ -929,7 +929,6 @@ particle {
 
 .comments {
     margin: 0 auto;
-    padding-bottom: 10px;
     border-bottom: 1px solid rgb(226, 226, 226);
     width: 968px;
 }
@@ -992,6 +991,7 @@ particle {
 
 .comment:last-child{
     margin-bottom: 0;
+    border-bottom: none;
 }
 
 .comment__wrapper-name {
