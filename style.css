@@ -1606,6 +1606,9 @@ footer {
 .comment-full:last-child{
     margin-bottom: 0;
 }
+.comment-full:hover{
+    box-shadow: 0 0 4px 0 rgb(190, 190, 190);
+}
 @media screen and (min-width: 1024px) {
     .wrapper-hamburger {
         display: none;
