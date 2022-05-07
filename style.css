@@ -1562,8 +1562,8 @@ footer {
     flex-grow: 1;
 }
 .comment__full-avatar{
-    width: 36px;
-    height: 36px;
+    width: 38px;
+    height: 38px;
     margin-right: 10px;
 }
 .comment__wrapper__full-name{
@@ -1590,7 +1590,8 @@ footer {
     padding: 5px 8px;
 }
 .comment-full{
-    padding: 15px;
+    position: relative;
+    padding: 17px 20px 15px 20px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -1598,6 +1599,14 @@ footer {
     -o-border-radius: 10px;
     box-shadow: 0px 0px 4px 0px #e0e0e0;
     margin-bottom: 30px;
+}
+.coment-full__btn-dropdown{
+    position: absolute;
+    right: 30px;
+    top: 7px;
+    display: flex;
+    height: 9px;
+    align-items: center;
 }
 .btn-emoji-icon-full{
     width: 19px;
@@ -1608,6 +1617,61 @@ footer {
 }
 .comment-full:hover{
     box-shadow: 0 0 4px 0 rgb(190, 190, 190);
+}
+.comment-time{
+    font-size: 12px;
+    color: #c7c7c7;
+    font-family: 'Roboto', 'Arial Rl', sans-serif;
+    font-weight: 400;
+}
+.comment__full-name{
+    margin-top: 2px;
+}
+.comment__wrapper__full-name .comment__full-name{
+    color: #464646;
+    font-family: 'Roboto', 'Arial Rl', sans-serif;
+}
+.drpdown-item__icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+.drpdown-item__comment-btn{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', 'Arial Rl', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 5px 10px 5px 15px;
+    width: 100%;
+}
+.drpdown-item__comment{
+    border-bottom: 1px solid #F0F0F0;
+    width: 150px;
+}
+.drpdown-item__comment:last-child{
+    border-bottom: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.drpdown-item__comment:first-child{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.dropdown__comment{
+    padding: 0px 0px 0px 40px;
+    background-color: white;
+    box-shadow: 0px 0px 4px 0px rgb(190 190 190);
+    width: fit-content;
+    z-index: 3;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: absolute;
+    right: 25px;
+    top: 20px;
 }
 @media screen and (min-width: 1024px) {
     .wrapper-hamburger {
