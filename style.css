@@ -1072,11 +1072,6 @@ particle {
     height: 25px;
 }
 
-.btn-emoji-icon-full{
-    width: 20px;
-    height: 20px;
-}
-
 .btn-emoji {
     margin-right: 10px;
     display: flex;
@@ -1109,7 +1104,7 @@ particle {
     margin-right: 0;
 }
 
-.btn-emoji-icon {
+.btn-emoji-icon, .btn-emoji-icon-ful{
     width: 20px;
     height: 20px;
 }
@@ -1816,7 +1811,7 @@ footer {
     .comment-name {
         font-size: 14px;
     }
-    .btn-emoji-icon {
+    .btn-emoji-icon, .btn-emoji-icon-ful {
         width: 18px;
         height: 18px;
     }
