@@ -1601,9 +1601,6 @@ footer {
     margin-bottom: 30px;
 }
 .coment-full__btn-dropdown{
-    position: absolute;
-    right: 30px;
-    top: 7px;
     display: flex;
     height: 9px;
     align-items: center;
@@ -1670,8 +1667,18 @@ footer {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     position: absolute;
-    right: 25px;
-    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: calc(100% + 5px);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.wrapper-dropdown{
+    position: absolute;
+    right: 30px;
+    top: 7px;
 }
 @media screen and (min-width: 1024px) {
     .wrapper-hamburger {
