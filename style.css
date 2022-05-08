@@ -1670,8 +1670,8 @@ footer {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     position: absolute;
-    right: 25px;
-    top: 20px;
+    right: -35px;
+    top: -90px;
 }
 @media screen and (min-width: 1024px) {
     .wrapper-hamburger {
