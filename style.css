@@ -1676,7 +1676,7 @@ li.dropdown-item__comment:first-child{
 .wrapper-dropdown{
     position: absolute;
     right: 30px;
-    top: 7px;
+    bottom: 7px;
 }
 @media screen and (min-width: 1024px) {
     .wrapper-hamburger {
