@@ -1628,12 +1628,12 @@ footer {
     color: #464646;
     font-family: 'Roboto', 'Arial Rl', sans-serif;
 }
-.drpdown-item__icon{
+.dropdown-item__icon{
     width: 20px;
     height: 20px;
     margin-right: 15px;
 }
-.drpdown-item__comment-btn{
+.dropdown-item__comment-btn{
     display: flex;
     align-items: center;
     font-family: 'Roboto', 'Arial Rl', sans-serif;
@@ -1642,16 +1642,28 @@ footer {
     padding: 5px 10px 5px 15px;
     width: 100%;
 }
-.drpdown-item__comment{
+.dropdown-item__comment-btn:last-child{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.dropdown-item__comment-btn:first-child{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.dropdown-item__comment{
     border-bottom: 1px solid #F0F0F0;
     width: 150px;
+    background-color: white;
 }
-.drpdown-item__comment:last-child{
+.dropdown-item__comment-btn:hover{
+    background-color: rgb(247, 247, 247);
+}
+li.dropdown-item__comment:last-child{
     border-bottom: 0;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-.drpdown-item__comment:first-child{
+li.dropdown-item__comment:first-child{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -1667,13 +1679,8 @@ footer {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: calc(100% + 5px);
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
+    left: calc(100% + 40px);
+    top: -5px;
 }
 .wrapper-dropdown{
     position: absolute;
@@ -1765,6 +1772,16 @@ footer {
 }
 
 @media screen and (max-width: 1024px) {
+    .dropdown__comment{
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: calc(100% + 5px);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        top: auto;
+    }
     .search-title{
         font-size: 20px;
     }
