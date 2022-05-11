@@ -154,7 +154,7 @@ rect {
     font-weight: 600;
 }
 
-body {
+body:not(.comment__full-name) {
     font-family: 'Lucida Console', monospace;
     display: flex;
     flex-direction: column;
@@ -1001,12 +1001,29 @@ particle {
 .comment-name {
     font-size: 16px;
     font-weight: 400;
+    font-family: 'Roboto', sans-serif;
 }
 
 .comment-likes {
     display: flex;
     align-items: center;
     position: relative;
+    width: fit-content;
+}
+
+.comment-full__wrapper-name{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 7px;
+}
+
+.comment__full-time{
+    margin-left: 20px;
+    font-size: 13px;
+    height: 14px;
+    color: #7E7E7E;
+    font-family: 'Roboto', 'Arial Rl', sans-serif;
+    font-weight: 300;
 }
 
 .comments-body {
@@ -1599,6 +1616,8 @@ footer {
     -o-border-radius: 10px;
     box-shadow: 0px 0px 4px 0px #e0e0e0;
     margin-bottom: 30px;
+    display: flex;
+    align-items: flex-start;
 }
 .coment-full__btn-dropdown{
     display: flex;
