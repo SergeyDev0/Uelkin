@@ -996,6 +996,7 @@ particle {
 .comment__wrapper-name {
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .comment-name {
@@ -1011,19 +1012,43 @@ particle {
     width: fit-content;
 }
 
+.comment-full__footer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
 .comment-full__wrapper-name{
     display: flex;
-    align-items: flex-end;
-    margin-bottom: 7px;
+    align-items:center;
 }
 
 .comment__full-time{
-    margin-left: 20px;
+    margin-left: 15px;
     font-size: 13px;
     height: 14px;
     color: #7E7E7E;
     font-family: 'Roboto', 'Arial Rl', sans-serif;
     font-weight: 300;
+    position: relative;
+}
+
+.comment__full-time::before{
+    content: '';
+    position: absolute;
+    left: -9px;
+    width: 2px;
+    height: 2px;
+    background-color: #7E7E7E;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
 }
 
 .comments-body {
@@ -1608,7 +1633,7 @@ footer {
 }
 .comment-full{
     position: relative;
-    padding: 17px 20px 15px 20px;
+    padding: 10px 15px 10px 15px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -1689,13 +1714,14 @@ li.dropdown-item__comment:first-child{
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     position: absolute;
-    left: calc(100% + 40px);
-    top: -5px;
+    left: calc(100% + 10px);
+    top: 0;
 }
-.wrapper-dropdown{
-    position: absolute;
-    right: 30px;
-    bottom: 7px;
+.comment-full__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
 }
 @media screen and (min-width: 1024px) {
     .wrapper-hamburger {
