@@ -12,6 +12,9 @@
     --balloon-move: 4px;
 }
 
+input[type="button"]{
+    cursor: pointer;
+}
 button[aria-label][data-balloon-pos] {
     overflow: visible;
 }
@@ -996,7 +999,11 @@ particle {
 .comment__wrapper-name {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+}
+
+.search-input{
+    margin-right: auto;
+    width: 100%;
 }
 
 .comment-name {
@@ -1029,7 +1036,7 @@ particle {
     font-size: 13px;
     height: 14px;
     color: #7E7E7E;
-    font-family: 'Roboto', 'Arial Rl', sans-serif;
+    font-family: 'Lucida Console', monospace;
     font-weight: 300;
     position: relative;
 }
@@ -1594,6 +1601,10 @@ footer {
     -ms-border-radius: 14px;
     -o-border-radius: 14px;
     padding: 5px 12px;
+}
+
+.search-form{
+    margin-bottom: 20px;
 }
 
 .search-title {
