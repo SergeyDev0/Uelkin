@@ -1016,12 +1016,12 @@ particle {
 
 .search-button{
     margin-top: 10px;
-    padding: 8px 30px;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
+    padding: 6px 20px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
     background-color: #007aff;
     color: white;
 }
@@ -1636,6 +1636,8 @@ footer {
 .search-title {
     margin-bottom: 20px;
     font-size: 24px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    padding-bottom: 5px;
 }
 .section__view-all{
     flex-grow: 1;
