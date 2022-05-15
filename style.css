@@ -1703,6 +1703,8 @@ footer {
     display: flex;
     height: 9px;
     align-items: center;
+    font-size: 22px;
+    color: #c4c4c4;
 }
 .btn-emoji-icon-full{
     width: 19px;
