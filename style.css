@@ -1012,6 +1012,7 @@ particle {
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
     background-color: rgb(245, 245, 245);
+    font-family: 'Lucida Console', monospace;
     
 }
 
@@ -1026,8 +1027,8 @@ particle {
 }
 
 .search-input::placeholder{
+    font-family: 'Lucida Console', monospace;
     color: #808080;
-    font-family: 'Roboto', sans-serif;
 }
 
 .search-button{
