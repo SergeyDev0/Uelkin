@@ -673,8 +673,8 @@ header {
     overflow: hidden;
 }
 
-.t396__artboard::-webkit-scrollbar {
-    height: 0px;
+.t396__artboard::-webkit-scrollbar{
+    height: 5px;
 }
 
 .t396__artboard::-webkit-scrollbar-track {
@@ -1396,11 +1396,12 @@ footer {
     padding: 10px 5px;
 }
 
-.catalog-body::-webkit-scrollbar {
+.catalog-body::-webkit-scrollbar, .banners::-webkit-scrollbar {
     height: 6px;
+    bottom: -20px;
 }
 
-.catalog-body::-webkit-scrollbar-track {
+.catalog-body::-webkit-scrollbar-track, .banners::-webkit-scrollbar-track {
     background: rgba(226, 226, 226, 0.719);
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -1410,7 +1411,7 @@ footer {
     width: 100%;
 }
 
-.catalog-body::-webkit-scrollbar-thumb {
+.catalog-body::-webkit-scrollbar-thumb, .banners::-webkit-scrollbar-thumb {
     background-color: rgb(179, 179, 179);
     border: none;
     border-radius: 10px;
@@ -1847,10 +1848,13 @@ li.dropdown-item__comment:first-child{
 }
 .banners{
     margin: 35px auto;
-    overflow-x: hidden;
+    overflow-x: scroll;
     display: flex;
     justify-content: space-between;
-    height: 403px;
+    height: 410px;
+    overflow-y: hidden;
+    padding-bottom: 5px;
+    box-sizing: content-box;
 }
 .banners__slide-item{
     margin-right: 10px;
