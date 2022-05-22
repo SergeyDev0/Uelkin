@@ -1396,12 +1396,12 @@ footer {
     padding: 10px 5px;
 }
 
-.catalog-body::-webkit-scrollbar, .banners::-webkit-scrollbar {
+.catalog-body::-webkit-scrollbar, .other__wrapper-cards::-webkit-scrollbar {
     height: 6px;
     bottom: -20px;
 }
 
-.catalog-body::-webkit-scrollbar-track, .banners::-webkit-scrollbar-track {
+.catalog-body::-webkit-scrollbar-track, .other__wrapper-cards::-webkit-scrollbar-track {
     background: rgba(226, 226, 226, 0.719);
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -1411,7 +1411,7 @@ footer {
     width: 100%;
 }
 
-.catalog-body::-webkit-scrollbar-thumb, .banners::-webkit-scrollbar-thumb {
+.catalog-body::-webkit-scrollbar-thumb, .other__wrapper-cards::-webkit-scrollbar-thumb {
     background-color: rgb(179, 179, 179);
     border: none;
     border-radius: 10px;
@@ -1853,7 +1853,6 @@ li.dropdown-item__comment:first-child{
     justify-content: space-between;
     height: 268px;
     overflow-y: hidden;
-    padding-bottom: 15px;
     box-sizing: content-box;
     transition: .25s;
     -webkit-transition: .25s;
@@ -1898,6 +1897,8 @@ li.dropdown-item__comment:first-child{
     display: flex;
     width: 100%;
     margin-top: 10px;
+    padding-bottom: 15px;
+    overflow-x: auto
 }
 .other__card-title{
     font-size: 14px;
