@@ -1851,18 +1851,28 @@ li.dropdown-item__comment:first-child{
     overflow-x: scroll;
     display: flex;
     justify-content: space-between;
-    height: 410px;
+    height: 268px;
     overflow-y: hidden;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
     box-sizing: content-box;
+    transition: .25s;
+    -webkit-transition: .25s;
+    -moz-transition: .25s;
+    -ms-transition: .25s;
+    -o-transition: .25s;
 }
-.banners__slide-item{
-    margin-right: 10px;
+.banners__slide-item:not(.banners__slide-item:last-child){
+    margin-right: 15px;
 }
 .banners__slide-img{
-    max-width: 400px;
-    height: 400px;
+    width: 476px;
+    height: 100%;
     background-size: contain;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .other__card-img{
     max-width: 150px;

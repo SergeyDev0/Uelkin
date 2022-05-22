@@ -397,20 +397,24 @@
 	</header>
     <main class="main-content">
 		<section class="banners">
-			<div style="display: flex; margin-bottom: 10px">
 				<div class="banners__slide-item">
-					<img src="https://lh3.googleusercontent.com/UJfU-yOtOVgx64x9APOF-BBOsOZpTvplyDvPTTYOC4C5LOeWGMKukvJ2xvtzSHiBcbd_BnXPKyd6xLWY4A2XznOSN1av0bm5DwHZJg=w600" alt="banner" class="banners__slide-img">
+					<img src="https://appimg-drru.dbankcdn.ru/entranceIcon/68a116c319ce4b6090cf4dc28f85389d/65/1607408117177_1080x684.jpg" alt="banner" class="banners__slide-img">
 				</div>
 				<div class="banners__slide-item">
-					<img src="https://lh3.googleusercontent.com/UJfU-yOtOVgx64x9APOF-BBOsOZpTvplyDvPTTYOC4C5LOeWGMKukvJ2xvtzSHiBcbd_BnXPKyd6xLWY4A2XznOSN1av0bm5DwHZJg=w600" alt="banner" class="banners__slide-img">
+					<img src="https://appimg-drru.dbankcdn.ru/entranceIcon/dea07f76fb234fd9a602926d1601722a/65/1607408057881_1080x684.jpg" alt="banner" class="banners__slide-img">
 				</div>
 				<div class="banners__slide-item">
-					<img src="https://lh3.googleusercontent.com/UJfU-yOtOVgx64x9APOF-BBOsOZpTvplyDvPTTYOC4C5LOeWGMKukvJ2xvtzSHiBcbd_BnXPKyd6xLWY4A2XznOSN1av0bm5DwHZJg=w600" alt="banner" class="banners__slide-img">
+					<img src="https://appimg-drru.dbankcdn.ru/entranceIcon/68a116c319ce4b6090cf4dc28f85389d/65/1607408117177_1080x684.jpg" alt="banner" class="banners__slide-img">
 				</div>
 				<div class="banners__slide-item">
-					<img src="https://lh3.googleusercontent.com/UJfU-yOtOVgx64x9APOF-BBOsOZpTvplyDvPTTYOC4C5LOeWGMKukvJ2xvtzSHiBcbd_BnXPKyd6xLWY4A2XznOSN1av0bm5DwHZJg=w600" alt="banner" class="banners__slide-img">
+					<img src="https://appimg-drru.dbankcdn.ru/entranceIcon/dea07f76fb234fd9a602926d1601722a/65/1607408057881_1080x684.jpg" alt="banner" class="banners__slide-img">
 				</div>
-			</div>
+				<div class="banners__slide-item">
+					<img src="https://appimg-drru.dbankcdn.ru/entranceIcon/68a116c319ce4b6090cf4dc28f85389d/65/1607408117177_1080x684.jpg" alt="banner" class="banners__slide-img">
+				</div>
+				<div class="banners__slide-item">
+					<img src="https://appimg-drru.dbankcdn.ru/entranceIcon/dea07f76fb234fd9a602926d1601722a/65/1607408057881_1080x684.jpg" alt="banner" class="banners__slide-img">
+				</div>
 		</section>
 		<section class="other">
 			<div class="catalog-header">
@@ -457,6 +461,22 @@
 			Uelkin D.A.O. With love for you. 2022
 		</h4>
 	</footer>
+	<script>
+		let activeBannerItem = 1;
+		let qualBannerItems = Number(document.querySelector('.banners').children.length) / 2;
+		let widthBannerItem = (476 + 15) * 2;
+		let noll;
+		setInterval(() => {
+			if (activeBannerItem !== qualBannerItems) {
+				document.querySelector('.banners').scrollLeft = widthBannerItem * activeBannerItem;
+				activeBannerItem += 1;
+			} else if(activeBannerItem == qualBannerItems) {
+				document.querySelector('.banners').scrollLeft = 0;
+				activeBannerItem = 1;
+			}
+		}, 2000);
+
+	</script>
 	<script>
 		window.onload = function () {
 			document.querySelector('.preloader').classList.add("preloader-remove");
