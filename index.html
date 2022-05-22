@@ -467,15 +467,15 @@
 	<script>
 		let activeBannerItem = 1;
 		let banners = document.querySelector('.banners-wrapper').children.length;
-		let qualBannerItems = Number(banners) / 2;
-		let widthBannerItem = (476 + 15) * 2;
+		let qualBannerItems = Number(banners);
+		let widthBannerItem = 476 + 15;
 		setInterval(() => {
 			if (activeBannerItem !== qualBannerItems) {
-				gsap.to('.banners-wrapper', {duration: 1, x: -widthBannerItem * activeBannerItem})
+				gsap.to('.banners-wrapper', {duration: 0.2, x: -widthBannerItem * (activeBannerItem - 1)})
 				
 				activeBannerItem += 1;
 			} else if (activeBannerItem == qualBannerItems){
-				gsap.to('.banners-wrapper', {duration: 1, x: -(-widthBannerItem * (activeBannerItem - activeBannerItem))})
+				gsap.to('.banners-wrapper', {duration: 0.4, x: -(-widthBannerItem * (activeBannerItem - activeBannerItem))})
 				activeBannerItem = 0;
 			}
 		}, 3000);
