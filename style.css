@@ -1848,7 +1848,7 @@ li.dropdown-item__comment:first-child{
 }
 .banners{
     margin: 35px auto;
-    overflow-x: scroll;
+    overflow-x: hidden;
     display: flex;
     justify-content: space-between;
     height: 268px;
@@ -1860,6 +1860,9 @@ li.dropdown-item__comment:first-child{
     -moz-transition: .25s;
     -ms-transition: .25s;
     -o-transition: .25s;
+}
+.banners-wrapper{
+    display: flex;
 }
 .banners__slide-item:not(.banners__slide-item:last-child){
     margin-right: 15px;
