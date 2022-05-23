@@ -1435,6 +1435,14 @@ footer {
     background-repeat: no-repeat;
     margin: 0 auto;
 }
+.catalog-card__new{
+    position: absolute;
+    top: -6px;
+    left: calc(100% - 6px);
+    content: '4s ago';
+    z-index: 4;
+}
+
 
 .catalog-card {
     height: auto;
