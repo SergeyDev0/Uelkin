@@ -11,7 +11,9 @@
     --balloon-font-size: 12px;
     --balloon-move: 4px;
 }
-
+.no-scroll{
+    overflow: hidden;
+}
 input[type="button"]{
     cursor: pointer;
 }

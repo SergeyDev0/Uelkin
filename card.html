@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<body>
+<body class="no-scroll">
     <header>
         <div class="wrapper-header">
             <div class="header__wrapper-logo">
@@ -891,6 +891,7 @@
     <script>
         window.onload = function () {
             document.querySelector('.preloader').classList.add("preloader-remove");
+            document.querySelector('.no-scroll').classList.remove('no-scroll');
         };
     </script>
     <script>

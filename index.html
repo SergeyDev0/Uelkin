@@ -11,7 +11,7 @@
 	<title>Uelkin | Results</title>
 </head>
 
-<body>
+<body class="no-scroll">
 	<div class="preloader">
 		<p class="preloader-text">Загрузка...</p>
 	</div>
@@ -584,6 +584,7 @@
         })
 		window.onload = function () {
 			document.querySelector('.preloader').classList.add("preloader-remove");
+			document.querySelector('.no-scroll').classList.remove('no-scroll');
 		};
 
 		headerButtonDropdown = document.querySelector('.header__button-dropdown--user');
