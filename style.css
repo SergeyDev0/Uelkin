@@ -1225,7 +1225,7 @@ footer {
     height: 130px;
     width: 100%;
     background-color: #F2F2F2;
-    margin-top: 15px;
+    margin-top: 10px;
     flex-shrink: 0;
 }
 
@@ -1384,8 +1384,11 @@ footer {
 .catalog {
     width: 968px;
     margin: 2% auto;
+    margin-bottom: 35px;
 }
-
+.catalog:last-child{
+    margin-bottom: 20px;
+}
 .catalog-title {
     font-size: 24px;
     font-weight: 400;
@@ -1396,6 +1399,7 @@ footer {
     overflow-x: scroll;
     overflow-y: hidden;
     padding: 10px 5px;
+    padding-top: 15px;
 }
 
 .catalog-body::-webkit-scrollbar, .other__wrapper-cards::-webkit-scrollbar {
@@ -1437,10 +1441,24 @@ footer {
 }
 .catalog-card__new{
     position: absolute;
-    top: -6px;
-    left: calc(100% - 6px);
-    content: '4s ago';
-    z-index: 4;
+    top: -10px;
+    left: calc(100% - 13px);
+    padding: 5px;
+    border-radius: 50%;
+    background-color: rgba(66, 66, 66, 0.98);
+    width: 25px;
+    height: 25px;
+    font-size: 13px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 8;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 
@@ -1468,7 +1486,6 @@ footer {
 .catalog-header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5px;
 }
 
 .catalog-card__wrapper-img {
