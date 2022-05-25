@@ -1441,7 +1441,7 @@ footer {
 }
 .catalog-card__new{
     position: absolute;
-    top: -10px;
+    top: -13px;
     left: calc(100% - 13px);
     padding: 5px;
     border-radius: 50%;
