@@ -1444,10 +1444,10 @@ footer {
     top: -13px;
     left: calc(100% - 13px);
     padding: 5px;
-    border-radius: 50%;
-    background-color: rgba(66, 66, 66, 0.98);
-    width: 25px;
-    height: 25px;
+    border-radius: 4px;
+    background-color: #999;
+    width: 20px;
+    height: 20px;
     font-size: 13px;
     vertical-align: middle;
     display: flex;
@@ -1455,10 +1455,10 @@ footer {
     align-items: center;
     color: white;
     z-index: 8;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
 }
 
 
