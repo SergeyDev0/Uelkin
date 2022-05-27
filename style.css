@@ -1935,9 +1935,17 @@ li.dropdown-item__comment:first-child{
 .profile-item{
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
-    padding-bottom: 15px;
+    padding: 15px 0;
     border-bottom: 1px solid rgb(226, 226, 226);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.profile-item:hover{
+    box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
+    border-bottom: 1px solid transparent;
 }
 .profile-item__name{
     width: 150px;
@@ -1951,7 +1959,7 @@ li.dropdown-item__comment:first-child{
     display: grid;
     justify-content: space-between;
     grid-template-columns: repeat(auto-fit, 30% 30% 30%);
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .profile-item__items-time, .profile-item__register-time{
     text-align: right;
