@@ -1944,6 +1944,8 @@ li.dropdown-item__comment:first-child{
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: 14px;
+    color: rgb(112, 122, 131);
+    font-weight: 400;
 }
 .section__wrapper-profiles{
     display: grid;
@@ -1954,10 +1956,11 @@ li.dropdown-item__comment:first-child{
 .profile-item__items-time, .profile-item__register-time{
     text-align: right;
     margin-right: 20px;
+    font-weight: 400;
 }
 .profile-item__collections-time{
-    font-size: 12px;
-    opacity: .6;
+    font-size: 12.5px;
+    color: rgb(53, 56, 64);
 }
 .profile-item__img{
     width: 45px;
