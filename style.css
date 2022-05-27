@@ -1937,18 +1937,29 @@ li.dropdown-item__comment:first-child{
     align-items: center;
     margin-bottom: 15px;
     padding-bottom: 15px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+.profile-item__name{
+    width: 266px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
 }
 .section__wrapper-profiles{
     display: grid;
     justify-content: space-between;
     grid-template-columns: repeat(auto-fit, 30% 30% 30%);
+    padding-top: 20px;
+}
+.profile-item__collections-time{
+    font-size: 12px;
+    opacity: .6;
 }
 .profile-item__img{
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    margin: auto 15px auto 10px;
+    margin: auto 15px auto 15px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -1960,6 +1971,10 @@ li.dropdown-item__comment:first-child{
     grid-template-columns: 166px 78px;
     grid-template-rows: 1fr 1fr;
     row-gap: 8px;
+}
+.profile-item__number{
+    font-weight: 600;
+    font-size: 15px;
 }
 @media screen and (min-width: 1024px) {
     .wrapper-hamburger {
