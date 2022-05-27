@@ -1940,7 +1940,7 @@ li.dropdown-item__comment:first-child{
     border-bottom: 1px solid rgb(226, 226, 226);
 }
 .profile-item__name{
-    width: 266px;
+    width: 150px;
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: 14px;
