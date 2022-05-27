@@ -1951,6 +1951,10 @@ li.dropdown-item__comment:first-child{
     grid-template-columns: repeat(auto-fit, 30% 30% 30%);
     padding-top: 20px;
 }
+.profile-item__items-time, .profile-item__register-time{
+    text-align: right;
+    margin-right: 20px;
+}
 .profile-item__collections-time{
     font-size: 12px;
     opacity: .6;
@@ -1968,13 +1972,14 @@ li.dropdown-item__comment:first-child{
 .profile-item__wrapper-content{
     font-size: 12px;
     display: grid;
-    grid-template-columns: 166px 78px;
+    grid-template-columns: 160px 50px;
     grid-template-rows: 1fr 1fr;
     row-gap: 8px;
 }
 .profile-item__number{
     font-weight: 600;
     font-size: 15px;
+    margin-left: 10px;
 }
 @media screen and (min-width: 1024px) {
     .wrapper-hamburger {
