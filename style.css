@@ -1992,32 +1992,8 @@ li.dropdown-item__comment:first-child{
     margin-top: 30px;
     width: 968px;
 }
-.information-wrapper{
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 100px;
-    gap: 20px;
-}
-.infromation-block{
-    border: 1px solid rgb(226, 226, 226);
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-}
-.information-text{
-    font-weight: 400;
-}
-.information-text > span{
-    font-weight: 600;
-}
-.infromation-block:hover{
-    box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
+.section__information  > .intelligence-card{
+    margin-top: 15px;
 }
 @media screen and (min-width: 1024px) {
     .wrapper-hamburger {
