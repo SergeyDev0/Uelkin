@@ -1952,7 +1952,7 @@ li.dropdown-item__comment:first-child{
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: 14px;
-    color: rgb(112, 122, 131);
+    color: rgb(53, 56, 64);
     font-weight: 400;
 }
 .section__wrapper-profiles{
@@ -1963,7 +1963,7 @@ li.dropdown-item__comment:first-child{
 }
 .profile-item__collections-time{
     font-size: 12.5px;
-    color: rgb(53, 56, 64);
+    color: rgb(112, 122, 131);
 }
 .profile-item__img{
     width: 40px;
@@ -1987,6 +1987,9 @@ li.dropdown-item__comment:first-child{
 }
 .profile-item__collections-time{
     margin-top: 6px;
+}
+.section__best-profiles:not(:first-child){
+    margin-top: 30px;
 }
 @media screen and (min-width: 1024px) {
     .wrapper-hamburger {
