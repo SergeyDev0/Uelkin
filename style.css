@@ -1939,13 +1939,8 @@ li.dropdown-item__comment:first-child{
     border-bottom: 1px solid rgb(226, 226, 226);
 }
 .profile-item:hover{
-    box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
+    background-color: rgba(0, 0, 0, 0.055);
     border-bottom: 1px solid transparent;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
 }
 .profile-item__name{
     width: 150px;
@@ -1953,7 +1948,7 @@ li.dropdown-item__comment:first-child{
     text-overflow: ellipsis;
     font-size: 14px;
     color: rgb(53, 56, 64);
-    font-weight: 400;
+    font-weight: 600;
 }
 .section__wrapper-profiles{
     display: grid;
@@ -1962,7 +1957,7 @@ li.dropdown-item__comment:first-child{
     padding-top: 10px;
 }
 .profile-item__collections-time{
-    font-size: 12.5px;
+    font-size: 13px;
     color: rgb(112, 122, 131);
 }
 .profile-item__img{
@@ -1987,6 +1982,7 @@ li.dropdown-item__comment:first-child{
 }
 .profile-item__collections-time{
     margin-top: 6px;
+    font-weight: 300;
 }
 .section__information{
     margin-top: 30px;
