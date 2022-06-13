@@ -1990,6 +1990,7 @@ li.dropdown-item__comment:first-child{
 }
 .section__information  > .intelligence-card{
     margin-top: 15px;
+    margin-bottom: 25px;
 }
 @media screen and (min-width: 1024px) {
     .wrapper-hamburger {
