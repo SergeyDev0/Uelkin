@@ -1954,11 +1954,11 @@ li.dropdown-item__comment:first-child{
     display: grid;
     justify-content: space-between;
     grid-template-columns: repeat(auto-fit, 30% 30% 30%);
-    padding-top: 10px;
+    padding-top: 17px;
 }
 .profile-item__collections-time{
     font-size: 13px;
-    color: rgb(112, 122, 131);
+    opacity: .6;
 }
 .profile-item__img{
     width: 40px;
