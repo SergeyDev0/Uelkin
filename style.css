@@ -1946,9 +1946,9 @@ li.dropdown-item__comment:first-child{
     width: 150px;
     overflow: hidden;
     text-overflow: ellipsis;
-    font-size: 14px;
+    font-size: 1px;
     color: rgb(53, 56, 64);
-    font-weight: 600;
+    font-weight: 400;
 }
 .section__wrapper-profiles{
     display: grid;
