@@ -1946,7 +1946,7 @@ li.dropdown-item__comment:first-child{
     width: 150px;
     overflow: hidden;
     text-overflow: ellipsis;
-    font-size: 1px;
+    font-size: 14px;
     color: rgb(53, 56, 64);
     font-weight: 400;
 }
@@ -1958,7 +1958,7 @@ li.dropdown-item__comment:first-child{
 }
 .profile-item__collections-time{
     font-size: 13px;
-    opacity: .6;
+    opacity: .8;
 }
 .profile-item__img{
     width: 40px;
