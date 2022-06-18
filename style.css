@@ -1937,6 +1937,7 @@ li.dropdown-item__comment:first-child{
     align-items: center;
     padding: 10px 0;
     border-bottom: 1px solid rgb(226, 226, 226);
+    padding-left: 15px;
 }
 .profile-item:hover{
     background-color: rgba(0, 0, 0, 0.055);
@@ -1981,7 +1982,6 @@ li.dropdown-item__comment:first-child{
     margin-left: 10px;
 }
 .profile-item__collections-time{
-    margin-top: 6px;
     font-weight: 300;
 }
 .section__information{
@@ -1991,6 +1991,17 @@ li.dropdown-item__comment:first-child{
 .section__information  > .intelligence-card{
     margin-top: 15px;
     margin-bottom: 25px;
+}
+.profile-item__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6px;
+    width: 100%;
+}
+.profile-item__value{
+    margin-left: 10px;
+    opacity: .6;
 }
 @media screen and (min-width: 1024px) {
     .wrapper-hamburger {
