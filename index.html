@@ -561,6 +561,8 @@
 					</div>
 
 				</div>
+				<button class="catalog__slider-arrow fa-solid fa-chevron-right" id="my-arrow-next"></button>
+				<button class="catalog__slider-arrow fa-solid fa-chevron-left" id="my-arrow-prev"></button>
 			</div>
 		</section>
 		<section class="catalog">
@@ -1111,7 +1113,9 @@
 				speed: 200,
 				slidesToShow: 3,
 				slidesToScroll: 1,
-				dots: true
+				dots: true,
+				nextArrow: document.querySelector('#my-arrow-next'),
+				prevArrow: document.querySelector('#my-arrow-prev')
 			});
 		});
 	</script>

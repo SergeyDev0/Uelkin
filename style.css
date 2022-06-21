@@ -2015,6 +2015,7 @@ li.dropdown-item__comment:first-child{
 .catalog > .wrapper-slider{
     margin-right: 5px;
     margin-top: 15px;
+    position: relative;
 }
 .category-img{
     height: 100%;
@@ -2081,33 +2082,26 @@ li.dropdown-item__comment:first-child{
     width: 100%;
     height: 100%;
     border-radius: 50%;
-}.catalog .slick-next, .catalog .slick-prev{
+}
+.catalog__slider-arrow{
     background-color: white;
     border: 1px solid rgb(206, 206, 206);
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     z-index: 10;
     position: absolute;
+    font-size: 15px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    top: calc(50% - 1rem - 5px);
 }
-.catalog .slick-prev{
+#my-arrow-prev{
     left: -20px;
-    top: calc(50% - 1rem);
 }
-.catalog .slick-next{
-    right: -15px;
-    top: calc(50% - 1rem);
-}
-.slick-prev:before{
-    font-size: 16px;
-    content: '<';
-    color: black;
-}
-.slick-next:before{
-    font-size: 16px;
-    content: '>';
-    opacity: 1;
-    color: black;
+#my-arrow-next{
+    right: -20px;
 }
 .catalog .slick-dots > li > button::before{
     color: rgb(2, 102, 252);
