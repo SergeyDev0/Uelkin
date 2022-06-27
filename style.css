@@ -2422,7 +2422,22 @@ li.dropdown-item__comment:first-child{
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 650px){
+    .section__wrapper-profiles{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .category {
+        height: 225px;
+        padding-bottom: 12px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .category{
+        padding-bottom: 0;
+        height: 275px;
+    }
     .search-title{
         font-size: 17px;
     }
@@ -2473,6 +2488,7 @@ li.dropdown-item__comment:first-child{
         font-size: 13px;
         margin-bottom: 1px;
         margin-top: 3.5px;
+        white-space: nowrap;
     }
     .btn-emoji-icon-full{
         width: 17px;

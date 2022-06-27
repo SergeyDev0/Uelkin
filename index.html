@@ -1037,32 +1037,32 @@
 
 					<div class="intelligence-wrapper">
 						<h3 class="intelligence-title">Предметов создано за</h3>
-						<p class="intelligence-description">На дошик хватит</p>
+						<p class="intelligence-description">55</p>
 					</div>
 
 					<div class="intelligence-wrapper">
 						<h3 class="intelligence-title">Предметов создано за месяц</h3>
-						<p class="intelligence-description">Мноо-оо-ого</p>
+						<p class="intelligence-description">6366</p>
 					</div>
 
 					<div class="intelligence-wrapper">
 						<h3 class="intelligence-title">Предметов создано за год</h3>
-						<p class="intelligence-description">Как тебе такое, Илон Маск?!</p>
+						<p class="intelligence-description">3</p>
 					</div>
 
 					<div class="intelligence-wrapper">
 						<h3 class="intelligence-title">Предметов создано за 7 дней</h3>
-						<p class="intelligence-description">Много</p>
+						<p class="intelligence-description">99</p>
 					</div>
 
 					<div class="intelligence-wrapper">
 						<h3 class="intelligence-title">Предметов создано за год</h3>
-						<p class="intelligence-description">Как тебе такое, Илон Маск?!</p>
+						<p class="intelligence-description">666</p>
 					</div>
 
 					<div class="intelligence-wrapper">
 						<h3 class="intelligence-title">Предметов создано за год</h3>
-						<p class="intelligence-description">Как тебе такое, Илон Маск?!</p>
+						<p class="intelligence-description">215</p>
 					</div>
 
 				</div>
@@ -1070,32 +1070,32 @@
 
 					<div class="intelligence-wrapper">
 						<h3 class="intelligence-title">Предметов создано за 7 дней</h3>
-						<p class="intelligence-description">Много</p>
+						<p class="intelligence-description">593</p>
 					</div>
 
 					<div class="intelligence-wrapper">
 						<h3 class="intelligence-title">Предметов создано за год</h3>
-						<p class="intelligence-description">Как тебе такое, Илон Маск?!</p>
+						<p class="intelligence-description">2</p>
 					</div>
 
 					<div class="intelligence-wrapper">
 						<h3 class="intelligence-title">Предметов создано за год</h3>
-						<p class="intelligence-description">Как тебе такое, Илон Маск?!</p>
+						<p class="intelligence-description">37</p>
 					</div>
 
 					<div class="intelligence-wrapper">
 						<h3 class="intelligence-title">Предметов создано за 7 дней</h3>
-						<p class="intelligence-description">Много</p>
+						<p class="intelligence-description">21</p>
 					</div>
 
 					<div class="intelligence-wrapper">
 						<h3 class="intelligence-title">Предметов создано за год</h3>
-						<p class="intelligence-description">Как тебе такое, Илон Маск?!</p>
+						<p class="intelligence-description">777</p>
 					</div>
 
 					<div class="intelligence-wrapper">
 						<h3 class="intelligence-title">Предметов создано за год</h3>
-						<p class="intelligence-description">Как тебе такое, Илон Маск?!</p>
+						<p class="intelligence-description">25</p>
 					</div>
 
 
@@ -1123,7 +1123,21 @@
 				slidesToScroll: 1,
 				dots: true,
 				nextArrow: document.querySelector('#my-arrow-next'),
-				prevArrow: document.querySelector('#my-arrow-prev')
+				prevArrow: document.querySelector('#my-arrow-prev'),
+				responsive: [
+				{
+					breakpoint: 651,
+					settings: {
+					slidesToShow: 2,
+					}
+				},
+				{
+					breakpoint: 450,
+					settings: {
+					slidesToShow: 1,
+					}
+				}
+				],
 			});
 		});
 	</script>
@@ -1136,6 +1150,20 @@
 				slidesToScroll: 1,
 				autoplay: true,
       			autoplaySpeed: 5000,
+				  responsive: [
+				{
+					breakpoint: 651,
+					settings: {
+					slidesToShow: 2,
+					}
+				},
+				{
+					breakpoint: 450,
+					settings: {
+					slidesToShow: 1,
+					}
+				}
+				],
 			});
 		});
 	</script>
